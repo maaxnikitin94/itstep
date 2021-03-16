@@ -1,7 +1,7 @@
 [Мой CV](https://maaxnikitin94.github.io/itstep/CV)
 # Максим Никитин
 
-![image](./myphoto.jpg)
+![image](./myphoto.jpg "Photo" "width:300px; height:400px;")
 >==**++[Telegram](https://t.me/maaxnikitin)
 [Twitter](https://twitter.com/nikitinmr)
 [Facebook](https://www.facebook.com/max.nikitin.142)
