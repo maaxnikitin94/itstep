@@ -1,3 +1,3 @@
-@[Мой CV](https://maaxnikitin94.github.io/itstep/CV)
+[Мой CV](https://maaxnikitin94.github.io/itstep/CV)
 
 # itstep
