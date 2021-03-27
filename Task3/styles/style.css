@@ -27,6 +27,9 @@ ul{
     font-style: normal;
     font-weight: bolder;
 }
+h1{
+    color: red;
+}
 h2{
     color: black;
     font-size: 18px;
@@ -67,4 +70,11 @@ h2{
 input{
     width: 500px;
     height: 50px;
+}
+.nazvanie{
+    color:darkorange;
+}
+footer{
+    text-align: right;
+    font-weight: bolder;
 }
