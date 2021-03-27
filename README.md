@@ -1,4 +1,5 @@
-Создал 3 странички html
+
+Создал онлайн-магазин
 
 [Мой CV](https://maaxnikitin94.github.io/itstep/CV)
 
