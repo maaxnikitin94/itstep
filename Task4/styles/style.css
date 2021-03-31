@@ -70,7 +70,26 @@ body {
     font-weight: bolder;
 
 }
-
+.podrobno:first-letter{
+    color: #19de99;
+    font-family: "Droid Sans", "Courier New", "Times New Roman";
+    font-size: 35px;
+    font-style: revert;
+    font-weight: bolder;
+    text-shadow: white 0px 0px 10px,
+    red 0px 0px 10px,
+    #19de99 0px 0px 10px;
+}
+.kratko:first-letter{
+    color: #19de99;
+    font-family: "Droid Sans", "Courier New", "Times New Roman";
+    font-size: 35px;
+    font-style: revert;
+    font-weight: bolder;
+    text-shadow: white 0px 0px 10px,
+    red 0px 0px 10px,
+    #19de99 0px 0px 10px;
+}
 .spisok {
     color: darkgrey;
     font-family: Ebrima, "Courier New", "Times New Roman";
@@ -147,16 +166,7 @@ body {
     background: url("../images/footer-fon.jpg");
 }
 
-span {
-    color: #19de99;
-    font-family: "Droid Sans", "Courier New", "Times New Roman";
-    font-size: 35px;
-    font-style: revert;
-    font-weight: bolder;
-    text-shadow: white 0px 0px 10px,
-    red 0px 0px 10px,
-    #19de99 0px 0px 10px;
-}
+
 .table{
     width: 900px;
 }
