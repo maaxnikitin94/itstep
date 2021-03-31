@@ -1,7 +1,7 @@
 
 Создал онлайн-магазин
 
-Добавил CSS
+Добавил много нехватающегоCSS
 
 [Мой CV](https://maaxnikitin94.github.io/itstep/CV)
 
