@@ -1,8 +1,8 @@
+@import url('https://fonts.googleapis.com/css2?family=Knewave&display=swap');
 body {
-    background: url("../images/fon.jpg") no-repeat;
+    background: url("https://image.freepik.com/free-photo/rusty-brown-and-light-green-textured-background-high-resolution-image-with-copy-space_87646-1254.jpg") no-repeat;
     background-size: cover;
     padding-bottom: 15px;
-
 }
 
 .privetstvie {
@@ -18,16 +18,26 @@ body {
 
 .ulmain {
     list-style-type: none;
+    display: flex;
+    justify-content: flex-end;
+    align-items: flex-start;
+    margin: -200px 0 0 0;
 }
-
+.ulmain_kont {
+    list-style-type: none;
+}
+.ulmain li{
+    display: inline;
+    padding: 0 30px;
+}
 .menu {
-    color: #06f6e2;
+    color: #a55907;
     font-family: "Comic Sans MS", "Courier New", "Times New Roman";
     font-size: 18px;
     font-style: revert;
     font-weight: bolder;
     text-decoration: none;
-    text-shadow: white 0px 0px 10px,
+    text-shadow: wheat 0px 0px 10px,
     red 0px 0px 10px,
     #19de99 0px 0px 10px;
 }
@@ -37,8 +47,8 @@ body {
 }
 
 .podzagolovok {
-    background-color: #29ead3;
-    color: #9d6c0f;
+    background-color: #b8b5af;
+    color: #d2680c;
     font-family: "Comic Sans MS", "Courier New", "Times New Roman";
     font-size: 18px;
     font-style: revert;
@@ -60,18 +70,23 @@ body {
     black 0px 0px 10px,
     red 3px 2px 10px,
     #19de99 0px 0px 10px;
+    margin: 0;
 }
 
 .podrobno {
     color: #ecb81f;
-    font-family: Arial, "Courier New", "Times New Roman";
+    font-family: "Droid Sans", "Courier New", "Times New Roman";
     font-size: 18px;
-    font-style: italic;
+    font-style: revert;
     font-weight: bolder;
+    text-shadow: black 3px 3px 10px,
+    black 0px 0px 10px,
+    red 3px 2px 10px,
+    #19de99 0px 0px 10px;
 
 }
 .podrobno:first-letter{
-    color: #19de99;
+    color: #e75406;
     font-family: "Droid Sans", "Courier New", "Times New Roman";
     font-size: 35px;
     font-style: revert;
@@ -81,7 +96,7 @@ body {
     #19de99 0px 0px 10px;
 }
 .kratko:first-letter{
-    color: #19de99;
+    color: #e75406;
     font-family: "Droid Sans", "Courier New", "Times New Roman";
     font-size: 35px;
     font-style: revert;
@@ -91,12 +106,12 @@ body {
     #19de99 0px 0px 10px;
 }
 .spisok {
-    color: darkgrey;
+    color: #020101;
     font-family: Ebrima, "Courier New", "Times New Roman";
     font-size: 30px;
     font-style: italic;
     font-weight: 250;
-    text-shadow: black 3px 3px 10px,
+    text-shadow: wheat 3px 3px 10px,
     green 0px 0px 10px,
     red 0px 0px 10px;
     list-style-image: url("http://s1.iconbird.com/ico/0912/fugue/w16h161349013004skullold.png");
@@ -136,7 +151,7 @@ body {
 }
 
 .img {
-    outline: 25px solid #24f5cb;
+    outline: 25px solid #f56d24;
     margin: 30px;
 }
 
@@ -150,18 +165,25 @@ body {
 }
 
 .nazvanie {
-    font-family: "Book Antiqua", "Courier New", "Times New Roman";
-    color: black;
+    font-family: 'Knewave', cursive;
+    color: #000000;
+    text-shadow: white 0px 0px 10px,
+    red 0px 0px 10px,
+    #31ef12 0px 5px 10px,
+    #e2be0f 4px 0px 10px;
 }
 
 .footer {
-    text-align: right;
+    box-sizing: border-box;
+    display: flex;
+    justify-content: flex-end;
+    padding: 5px 30px 0 0;
     font-weight: bolder;
-    color: white;
+    color: #ea961a;
     position: fixed;
     left: 0px;
     bottom: 0px;
-    height: 20px;
+    height: 25px;
     width: 100%;
     background: url("../images/footer-fon.jpg");
 }
@@ -172,13 +194,13 @@ body {
 }
 .table td{
     outline: 4px solid #010e01;
-    color: #0ed0b6;
+    color: #060809;
     font-family: "Comic Sans MS", "Courier New", "Times New Roman";
     font-size: 14px;
     font-style: revert;
     font-weight: bolder;
     text-decoration: none;
-    text-shadow: blue 0px 0px 10px,
+    text-shadow: white 0px 0px 10px,
     red 0px 0px 10px,
     #31ef12 0px 5px 10px,
     #e2be0f 4px 0px 10px;
@@ -209,7 +231,7 @@ body {
 }
 
 .adres {
-    color: #06f6e2;
+    color: #964b09;
     font-family: "Comic Sans MS", "Courier New", "Times New Roman";
     font-size: 14px;
     font-style: revert;
@@ -226,7 +248,7 @@ body {
     font-size: 18px;
     font-weight: bolder;
     text-decoration: none;
-    text-shadow: black 0px 0px 10px,
+    text-shadow: wheat 0px 0px 10px,
     red 0px 0px 10px,
     #19de99 0px 0px 10px;
     margin: 160px;
@@ -239,34 +261,39 @@ body {
 .katalog {
     color: black;
     font-family: Rockwell, "Courier New", "Times New Roman";
-    font-size: 20px;
+    font-size: 29px;
     font-style: revert;
     font-weight: bolder;
     text-shadow: white 0px 0px 10px,
     red 0px 0px 10px,
     #19de99 0px 0px 10px;
+    margin: 0;
+    padding: 0;
 }
 
 .tovar {
-    color: #21f3c9;
+    color: #580aa5;
     font-family: Rockwell, "Courier New", "Times New Roman";
-    font-size: 30px;
+    font-size: 25px;
     font-style: revert;
     font-weight: bolder;
-    text-shadow: black 0px 0px 10px,
+    text-shadow: white 0px 0px 10px,
     red 0px 0px 10px,
     #19de99 0px 0px 10px;
+    display: flex;
+    justify-content: center;
 }
 
 .totovar {
-    color: #c44b10;
+    color: #240779;
     font-family: "Comic Sans MS", "Courier New", "Times New Roman";
     font-size: 18px;
     font-weight: bolder;
     text-decoration: none;
-    text-shadow: black 0px 0px 10px,
+    text-shadow: white 0px 0px 10px,
     red 0px 0px 10px,
     #19de99 0px 0px 10px;
+    padding: 0 0 0 100px;
 }
 
 .totovar:hover {
@@ -282,6 +309,8 @@ body {
     text-shadow: black 0px 0px 10px,
     red 0px 0px 10px,
     #19de99 0px 0px 10px;
+    margin: -40px 0 0 0;
+    padding: 0;
 }
 
 .oryjie {
@@ -291,4 +320,71 @@ body {
     red 0px 0px 10px,
     #19de99 0px 0px 10px;
 }
+.container{
+    width: 100%;
+    margin: 0 auto;
+}
+.logo, .nazvanie{
+    padding: 0 30px;
+}
+.header{
+    height: 300px;
+    background: url("https://rycar.by/images/fotostati/oruzhie/rekvizit-85.jpg") no-repeat;
+    background-size: cover;
+}
+.map{
+    width: 100%;
+    height: 374px;
+}
+hr{
+    padding: 0;
+    margin: 0;
+}
+.zagolovok_kratko{
+    display: flex;
+    width: 100%;
+    height: 400px;
+    flex-direction: row-reverse;
+}
+.buy{
+    display: flex;
 
+}
+.button{
+    background: darkgray;
+    border:none;
+    width: 240px;
+    margin: -40px 0 0 50px;
+    color: #240779;
+    font-family: Forte, Georgia, "Times New Roman";
+    font-size: 18px;
+    font-weight: bolder;
+    text-shadow: white 0px 0px 10px,
+    red 0px 0px 10px,
+    #19de99 0px 0px 10px;
+    border-radius: 40px;
+}
+.button:hover{
+    background: #ebf121;
+    color:red;
+    cursor: pointer;
+}
+.button:focus{
+    outline: none;
+    color:green;
+    border-radius: 40px;
+    background-color: yellow;
+}
+.katalog_block{
+    display: flex;
+    justify-content: center;
+}
+.mech_img{
+    padding: 0 20px;
+}
+.bylava_img{
+    padding: 0 20px;
+}
+.kinjal_img{
+    padding: 0 20px;
+}
