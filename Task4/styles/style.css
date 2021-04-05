@@ -1,0 +1,294 @@
+body {
+    background: url("../images/fon.jpg") no-repeat;
+    background-size: cover;
+    padding-bottom: 15px;
+
+}
+
+.privetstvie {
+    color: black;
+    font-family: Rockwell, "Courier New", "Times New Roman";
+    font-size: 20px;
+    font-style: revert;
+    font-weight: bolder;
+    text-shadow: white 0px 0px 10px,
+    red 0px 0px 10px,
+    #19de99 0px 0px 10px;
+}
+
+.ulmain {
+    list-style-type: none;
+}
+
+.menu {
+    color: #06f6e2;
+    font-family: "Comic Sans MS", "Courier New", "Times New Roman";
+    font-size: 18px;
+    font-style: revert;
+    font-weight: bolder;
+    text-decoration: none;
+    text-shadow: white 0px 0px 10px,
+    red 0px 0px 10px,
+    #19de99 0px 0px 10px;
+}
+
+.menu:hover {
+    color: black;
+}
+
+.podzagolovok {
+    background-color: #29ead3;
+    color: #9d6c0f;
+    font-family: "Comic Sans MS", "Courier New", "Times New Roman";
+    font-size: 18px;
+    font-style: revert;
+    font-weight: bolder;
+    text-decoration: none;
+    text-shadow: white 0px 0px 10px,
+    red 0px 0px 10px,
+    #31ef12 0px 5px 10px,
+    #e2be0f 4px 0px 10px;
+}
+
+.kratko {
+    color: #ecb81f;
+    font-family: "Droid Sans", "Courier New", "Times New Roman";
+    font-size: 18px;
+    font-style: revert;
+    font-weight: bolder;
+    text-shadow: black 3px 3px 10px,
+    black 0px 0px 10px,
+    red 3px 2px 10px,
+    #19de99 0px 0px 10px;
+}
+
+.podrobno {
+    color: #ecb81f;
+    font-family: Arial, "Courier New", "Times New Roman";
+    font-size: 18px;
+    font-style: italic;
+    font-weight: bolder;
+
+}
+.podrobno:first-letter{
+    color: #19de99;
+    font-family: "Droid Sans", "Courier New", "Times New Roman";
+    font-size: 35px;
+    font-style: revert;
+    font-weight: bolder;
+    text-shadow: white 0px 0px 10px,
+    red 0px 0px 10px,
+    #19de99 0px 0px 10px;
+}
+.kratko:first-letter{
+    color: #19de99;
+    font-family: "Droid Sans", "Courier New", "Times New Roman";
+    font-size: 35px;
+    font-style: revert;
+    font-weight: bolder;
+    text-shadow: white 0px 0px 10px,
+    red 0px 0px 10px,
+    #19de99 0px 0px 10px;
+}
+.spisok {
+    color: darkgrey;
+    font-family: Ebrima, "Courier New", "Times New Roman";
+    font-size: 30px;
+    font-style: italic;
+    font-weight: 250;
+    text-shadow: black 3px 3px 10px,
+    green 0px 0px 10px,
+    red 0px 0px 10px;
+    list-style-image: url("http://s1.iconbird.com/ico/0912/fugue/w16h161349013004skullold.png");
+}
+
+.pole::placeholder {
+    font-family: Ebrima, "Courier New", "Times New Roman";
+    font-size: 17px;
+    font-style: italic;
+    font-weight: bolder;
+    color: #ee7810;
+}
+
+.pole:focus {
+    text-transform: capitalize;
+}
+
+.poletel::placeholder {
+    font-family: Ebrima, "Courier New", "Times New Roman";
+    font-size: 17px;
+    font-style: italic;
+    font-weight: bolder;
+    color: #ee7810;
+}
+
+.polemail::placeholder {
+    font-family: Ebrima, "Courier New", "Times New Roman";
+    font-size: 17px;
+    font-style: italic;
+    font-weight: bolder;
+    color: #ee7810;
+}
+
+.polemail:focus {
+    background-color: black;
+    color: #d9b70c;
+}
+
+.img {
+    outline: 25px solid #24f5cb;
+    margin: 30px;
+}
+
+.img:hover {
+    outline: none;
+}
+
+.form input {
+    width: 500px;
+    height: 50px;
+}
+
+.nazvanie {
+    font-family: "Book Antiqua", "Courier New", "Times New Roman";
+    color: black;
+}
+
+.footer {
+    text-align: right;
+    font-weight: bolder;
+    color: white;
+    position: fixed;
+    left: 0px;
+    bottom: 0px;
+    height: 20px;
+    width: 100%;
+    background: url("../images/footer-fon.jpg");
+}
+
+
+.table{
+    width: 900px;
+}
+.table td{
+    outline: 4px solid #010e01;
+    color: #0ed0b6;
+    font-family: "Comic Sans MS", "Courier New", "Times New Roman";
+    font-size: 14px;
+    font-style: revert;
+    font-weight: bolder;
+    text-decoration: none;
+    text-shadow: blue 0px 0px 10px,
+    red 0px 0px 10px,
+    #31ef12 0px 5px 10px,
+    #e2be0f 4px 0px 10px;
+}
+.td{
+    height: 70px;
+}
+.tr {
+    align: top;
+    text-align: center;
+}
+.tddlina {
+    align: top;
+    text-align: center;
+}
+
+.form {
+    color: #9d6c0f;
+    font-family: "Comic Sans MS", "Courier New", "Times New Roman";
+    font-size: 18px;
+    font-style: revert;
+    font-weight: bolder;
+    text-decoration: none;
+    text-shadow: white 0px 0px 10px,
+    red 0px 0px 10px,
+    #31ef12 0px 5px 10px,
+    #e2be0f 4px 0px 10px;
+}
+
+.adres {
+    color: #06f6e2;
+    font-family: "Comic Sans MS", "Courier New", "Times New Roman";
+    font-size: 14px;
+    font-style: revert;
+    font-weight: bolder;
+    text-decoration: none;
+    text-shadow: white 0px 0px 10px,
+    red 0px 0px 10px,
+    #19de99 0px 0px 10px;
+}
+
+.nizmenu {
+    color: #ac5f04;
+    font-family: "Comic Sans MS", "Courier New", "Times New Roman";
+    font-size: 18px;
+    font-weight: bolder;
+    text-decoration: none;
+    text-shadow: black 0px 0px 10px,
+    red 0px 0px 10px,
+    #19de99 0px 0px 10px;
+    margin: 160px;
+}
+
+.nizmenu:hover {
+    color: #18dec8;
+}
+
+.katalog {
+    color: black;
+    font-family: Rockwell, "Courier New", "Times New Roman";
+    font-size: 20px;
+    font-style: revert;
+    font-weight: bolder;
+    text-shadow: white 0px 0px 10px,
+    red 0px 0px 10px,
+    #19de99 0px 0px 10px;
+}
+
+.tovar {
+    color: #21f3c9;
+    font-family: Rockwell, "Courier New", "Times New Roman";
+    font-size: 30px;
+    font-style: revert;
+    font-weight: bolder;
+    text-shadow: black 0px 0px 10px,
+    red 0px 0px 10px,
+    #19de99 0px 0px 10px;
+}
+
+.totovar {
+    color: #c44b10;
+    font-family: "Comic Sans MS", "Courier New", "Times New Roman";
+    font-size: 18px;
+    font-weight: bolder;
+    text-decoration: none;
+    text-shadow: black 0px 0px 10px,
+    red 0px 0px 10px,
+    #19de99 0px 0px 10px;
+}
+
+.totovar:hover {
+    color: #1eeacb;
+}
+
+.tovarcena {
+    color: #ee0c0c;
+    font-family: Rockwell, "Courier New", "Times New Roman";
+    font-size: 30px;
+    font-style: revert;
+    font-weight: bolder;
+    text-shadow: black 0px 0px 10px,
+    red 0px 0px 10px,
+    #19de99 0px 0px 10px;
+}
+
+.oryjie {
+    font-family: "Book Antiqua", "Courier New", "Times New Roman";
+    color: #9d550f;
+    text-shadow: yellow 0px 0px 10px,
+    red 0px 0px 10px,
+    #19de99 0px 0px 10px;
+}
+
