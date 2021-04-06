@@ -25,6 +25,15 @@ body {
 }
 .ulmain_kont {
     list-style-type: none;
+    color: #964b09;
+    font-family: "Comic Sans MS", "Courier New", "Times New Roman";
+    font-size: 14px;
+    font-style: revert;
+    font-weight: bolder;
+    text-decoration: none;
+    text-shadow: white 0px 0px 10px,
+    red 0px 0px 10px,
+    #19de99 0px 0px 10px;
 }
 .ulmain li{
     display: inline;
@@ -153,6 +162,7 @@ body {
 .img {
     outline: 25px solid #f56d24;
     margin: 30px;
+    display: block;
 }
 
 .img:hover {
