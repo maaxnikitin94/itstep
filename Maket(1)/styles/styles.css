@@ -52,7 +52,8 @@ body {
     letter-spacing: 0.1em;
     color: #8c8c8c;
     text-decoration: none;
-    padding: 0 15px;
+    padding: 0 5px;
+    margin: 0 10px;
     position: relative;
 }
 
@@ -69,6 +70,7 @@ body {
 
 .menu_style:hover {
     font-weight: 700;
+    margin: 0 9px;
     color: black;
 }
 
@@ -301,111 +303,111 @@ body {
 }
 
 /*Новый блок*/
-/*.exclusive {*/
-/*    display: flex;*/
-/*    position: absolute;*/
-/*    top: 1409px;*/
-/*}*/
+.exclusive {
+    display: flex;
+    position: absolute;
+    top: 1409px;
+}
 
-/*.exclusive_left {*/
-/*    width: 683px;*/
-/*    height: 683px;*/
-/*    background: url("../images/exclusive_fon_left.png");*/
-/*}*/
+.exclusive_left {
+    width: 683px;
+    height: 683px;
+    background: url("../images/exclusive_fon_left.png");
+}
 
-/*.exclusive_right {*/
-/*    width: 683px;*/
-/*    height: 683px;*/
-/*    background: url("../images/exclusive_fon_right.png");*/
-/*}*/
+.exclusive_right {
+    width: 683px;
+    height: 683px;
+    background: url("../images/exclusive_fon_right.png");
+}
 
-/*.exclusive_text {*/
-/*    margin-top: 228px;*/
-/*    margin-left: 51px;*/
-/*    margin-bottom: 0;*/
-/*    font-family: Montserrat;*/
-/*    font-size: 18px;*/
-/*    line-height: 48px;*/
-/*    font-weight: 700;*/
-/*    text-transform: uppercase;*/
-/*    letter-spacing: 0.1em;*/
-/*    color: #1e88e5;*/
-/*}*/
+.exclusive_text {
+    margin-top: 228px;
+    margin-left: 51px;
+    margin-bottom: 0;
+    font-family: Montserrat;
+    font-size: 18px;
+    line-height: 48px;
+    font-weight: 700;
+    text-transform: uppercase;
+    letter-spacing: 0.1em;
+    color: #1e88e5;
+}
 
-/*.fishnet_chair_exclusive {*/
-/*    margin-top: 0;*/
-/*    margin-left: 51px;*/
-/*    margin-bottom: 0;*/
-/*    font-family: Montserrat;*/
-/*    font-size: 36px;*/
-/*    line-height: 1.2;*/
-/*    font-weight: 700;*/
-/*    color: #212121;*/
-/*}*/
+.fishnet_chair_exclusive {
+    margin-top: 0;
+    margin-left: 51px;
+    margin-bottom: 0;
+    font-family: Montserrat;
+    font-size: 36px;
+    line-height: 1.2;
+    font-weight: 700;
+    color: #212121;
+}
 
-/*.kratko_exclusive {*/
-/*    margin-left: 51px;*/
-/*    margin-bottom: 0;*/
-/*    width: 400px;*/
-/*    font-family: Montserrat;*/
-/*    font-size: 14.1px;*/
-/*    line-height: 24px;*/
-/*    font-weight: 300;*/
-/*    color: #6c6c6c;*/
-/*}*/
+.kratko_exclusive {
+    margin-left: 51px;
+    margin-bottom: 0;
+    width: 400px;
+    font-family: Montserrat;
+    font-size: 14.1px;
+    line-height: 24px;
+    font-weight: 300;
+    color: #6c6c6c;
+}
 
-/*.order_us_exclusive {*/
-/*    width: 212px;*/
-/*    height: 45px;*/
-/*    background-color: #ffffff;*/
-/*    border: none;*/
-/*    border-radius: 22.5px;*/
-/*    margin-left: 50px;*/
-/*    margin-top: 10px;*/
-/*    font-family: Montserrat;*/
-/*    font-size: 18px;*/
-/*    line-height: 24px;*/
-/*    font-weight: 700;*/
-/*    text-transform: uppercase;*/
-/*    letter-spacing: 0.2em;*/
-/*    color: #212121;*/
-/*}*/
+.order_us_exclusive {
+    width: 212px;
+    height: 45px;
+    background-color: #ffffff;
+    border: none;
+    border-radius: 22.5px;
+    margin-left: 50px;
+    margin-top: 10px;
+    font-family: Montserrat;
+    font-size: 18px;
+    line-height: 24px;
+    font-weight: 700;
+    text-transform: uppercase;
+    letter-spacing: 0.2em;
+    color: #212121;
+}
 
-/*.order_us_exclusive:hover {*/
-/*    border: 2px solid yellow;*/
-/*}*/
+.order_us_exclusive:hover {
+    border: 2px solid yellow;
+}
 
-/*.order_us_exclusive:focus {*/
-/*    outline: none;*/
-/*    color: green;*/
-/*}*/
+.order_us_exclusive:focus {
+    outline: none;
+    color: green;
+}
 
-/*.trending_products {*/
-/*    position: relative;*/
-/*    top: 1411px;*/
-/*    left: 98px;*/
-/*    display: flex;*/
-/*}*/
+.trending_products {
+    position: relative;
+    top: 1411px;
+    left: 98px;
+    display: flex;
+}
 
-/*.trending_products_text {*/
-/*    font-family: Montserrat;*/
-/*    font-size: 36px;*/
-/*    line-height: 1.2;*/
-/*    font-weight: 700;*/
-/*    color: #212121;*/
-/*}*/
+.trending_products_text {
+    font-family: Montserrat;
+    font-size: 36px;
+    line-height: 1.2;
+    font-weight: 700;
+    color: #212121;
+}
 
-/*.trending_explore_all {*/
-/*    font-family: Montserrat;*/
-/*    font-size: 18px;*/
-/*    line-height: 24px;*/
-/*    font-weight: 700;*/
-/*    text-transform: uppercase;*/
-/*    letter-spacing: 0.2em;*/
-/*    color: #212121;*/
-/*    background-color: white;*/
-/*    border: none;*/
-/*    position: absolute;*/
-/*    margin-left: 661px;*/
-/*    margin-top: 0px;*/
-/*}*/
+.trending_explore_all {
+    font-family: Montserrat;
+    font-size: 18px;
+    line-height: 24px;
+    font-weight: 700;
+    text-transform: uppercase;
+    letter-spacing: 0.2em;
+    color: #212121;
+    background-color: white;
+    border: none;
+    position: absolute;
+    margin-left: 661px;
+    margin-top: 0px;
+}
