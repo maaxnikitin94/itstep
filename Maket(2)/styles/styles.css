@@ -613,8 +613,111 @@ body {
 }
 
 .footer {
-    margin-top: 40px;
+    margin: 0;
+    padding: 120px 99px 0 99px;
     width: 1366px;
     height: 384px;
     background-color: #f7f7f7;
+    box-sizing: border-box;
+}
+.verh_text{
+    display: flex;
+    justify-content: space-between;
+}
+.text_head{
+    font-family: Montserrat;
+    font-size: 18px;
+    line-height: 24px;
+    font-weight: 700;
+    text-transform: uppercase;
+    letter-spacing: 0.1em;
+    color: #6c6c6c;
+}
+.head2{
+    margin-right: 125px;
+}
+.head3{
+    margin-right: 138px;
+}
+.center_text{
+    display: flex;
+}
+.text_footer{
+    display: flex;
+    flex-direction: column;
+    font-family: Montserrat;
+    font-size: 14px;
+    line-height: 22px;
+    font-weight: 300;
+    color: #212121;
+    width: 250px;
+}
+.links_footer_all{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+.links_footer{
+    display: flex;
+    flex-direction: column;
+    font-family: Montserrat;
+    font-size: 14px;
+    line-height: 26px;
+    font-weight: 700;
+    text-transform: uppercase;
+    letter-spacing: 0.05em;
+    color: #212121;
+    margin-top: 10px;
+    margin-left: 30px;
+}
+.links_footer a{
+    margin: 0;
+    text-decoration: none;
+    color: black;
+}
+.links_footer2{
+    display: flex;
+    flex-direction: column;
+    font-family: Montserrat;
+    font-size: 14px;
+    line-height: 26px;
+    font-weight: 700;
+    text-transform: uppercase;
+    letter-spacing: 0.05em;
+    color: #212121;
+    margin-top: 10px;
+    margin-left: 108px;
+}
+.links_footer2 a{
+    margin: 0;
+    text-decoration: none;
+    color: black;
+}
+.links_footer3{
+    font-family: Montserrat;
+    font-size: 14px;
+    line-height: 22px;
+    font-weight: 300;
+    color: #212121;
+    width: 370px;
+    margin-top: 10px;
+    margin-left: 70px;
+}
+.niz_text{
+    font-family: Montserrat;
+    font-size: 12px;
+    line-height: 26px;
+    font-weight: 700;
+    text-transform: uppercase;
+    letter-spacing: 0.05em;
+    color: #6c6c6c;
+    margin-top: 37px;
+    display: flex;
+}
+.social {
+    margin: -5px 0 0 158px;
+}
+.text_social {
+    margin: 0 0 0 140px;
 }
