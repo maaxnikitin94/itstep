@@ -1,5 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,700;1,100&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Montserrat&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@200;700&display=swap');
 
 body {
     padding: 0;
@@ -19,6 +18,8 @@ body {
     height: 800px;
     display: flex;
     flex-wrap: wrap;
+    padding: 0 98px;
+    box-sizing: border-box;
 }
 
 .navigation_main {
@@ -26,11 +27,10 @@ body {
     width: 100%;
     display: flex;
     justify-content: space-between;
+    align-items: flex-end;
 }
 
 .logo_img {
-    margin-top: 62px;
-    margin-left: 98px;
 }
 
 .navigation li {
@@ -39,8 +39,8 @@ body {
 
 .navigation {
     display: flex;
-    padding: 67px 0 0 0;
-    margin: 0 167px 0 0;
+    margin: 0;
+    padding: 0;
 }
 
 
@@ -48,12 +48,11 @@ body {
     font-family: Montserrat;
     font-size: 14px;
     font-weight: 300;
+    color: #8c8c8c;
     text-transform: uppercase;
     letter-spacing: 0.1em;
-    color: #8c8c8c;
     text-decoration: none;
-    padding: 0 5px;
-    margin: 0 10px;
+    padding: 0 15px;
     position: relative;
 }
 
@@ -69,8 +68,7 @@ body {
 }
 
 .menu_style:hover {
-    font-weight: 700;
-    margin: 0 9px;
+    text-shadow: 0 0 1px black, 0 0 .65px black, 0 0 .65px black, 0 0 .65px black;
     color: black;
 }
 
@@ -84,10 +82,14 @@ body {
     width: 100%;
 }
 
+.text_header {
+    padding: 70px 0 0 0;
+}
+
 .trending {
-    margin: 76px 0 0 98px;
+    margin: 0;
     padding: 0;
-    font-family: Montserrat;
+    font-family: 'Montserrat', sans-serif;
     font-size: 18px;
     font-weight: 700;
     text-transform: uppercase;
@@ -96,16 +98,17 @@ body {
 }
 
 .fishnet_chair {
-    margin: 10px 0 0 106px;
-    font-family: Montserrat;
+    margin: 10px 0 0 8px;
+    font-family: 'Montserrat', sans-serif;
     font-size: 55px;
+    font-weight: 100;
     text-transform: uppercase;
     color: #212121;
 }
 
 .kratko {
-    margin: 15px 0 0 98px;
-    font-family: Montserrat;
+    margin: 15px 0 0 0;
+    font-family: 'Montserrat', sans-serif;
     font-size: 14px;
     font-weight: 300;
     color: #6c6c6c;
@@ -118,7 +121,7 @@ body {
     background-color: #ffffff;
     border: none;
     border-radius: 22.5px;
-    margin: 35px 0 0 98px;
+    margin: 35px 0 0 0;
     font-family: Montserrat;
     font-size: 18px;
     font-weight: 700;
@@ -155,6 +158,8 @@ body {
     justify-content: space-between;
     height: 160px;
     position: relative;
+    align-items: flex-end;
+    padding: 0 98px;
 }
 
 .featured {
@@ -164,7 +169,6 @@ body {
     font-weight: 700;
     color: #6c6c6c;
     text-decoration: none;
-    margin: 120px 0 0 107px;
 }
 
 .featured:hover {
@@ -201,7 +205,7 @@ body {
     font-weight: 700;
     color: #6c6c6c;
     text-decoration: none;
-    margin: 120px 0 0 -660px;
+    margin: 0 700px 0 0;
 }
 
 .new:hover {
@@ -241,9 +245,8 @@ body {
     color: #212121;
     background-color: white;
     border: none;
-    height: 40px;
-    margin: 120px 98px 0 0;
     padding: 0;
+    margin: 0 0 6px 0;
 }
 
 .explore_all:hover {
@@ -259,75 +262,111 @@ body {
 
 .lenta_featured {
     display: flex;
+    justify-content: space-between;
+    padding: 0 98px 70px 98px;
+    height: 270px;
+    width: 100%;
 }
-
-.lenta_img_link {
+.lenta_card1{
     width: 270px;
     height: 270px;
-    margin: -25px 0 0 98px;
     position: relative;
+    cursor: pointer;
+    overflow: hidden;
+    border: 1px solid black;
 }
-
-.button_lenta {
-    position: absolute;
-    margin: 42px 0 0 -155px;
+.lenta_card1:hover{
+    border: 1px solid black;
 }
-
-.fishnet_lenta {
+.button_featured{
+    width: 100%;
+    height: 30px;
     position: absolute;
-    margin: 100px 0 0 157px;
+    bottom: -158px;
+    transition: bottom .8s,
+    opacity .5s;
+    pointer-events: none;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    opacity: 0;
+}
+.fishnet_lenta{
+    width: 100%;
+    height: 30px;
+    position: absolute;
+    bottom: -114px;
+    transition: bottom .8s,
+            opacity .5s;
+    pointer-events: none;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    opacity: 0;
     font-family: Montserrat;
     font-size: 22px;
     line-height: 29px;
     font-weight: 700;
     color: #212121;
 }
-
 .text_lenta {
+    width: 100%;
+    height: 30px;
     position: absolute;
-    margin: 140px 0 0 126px;
+    bottom: -68px;
+    transition: bottom .8s,
+    opacity .5s;
+    pointer-events: none;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    opacity: 0;
+    padding:0 30px;
+    box-sizing: border-box;
     font-family: Montserrat;
     font-size: 14px;
     line-height: 21px;
     font-weight: 300;
     color: #6c6c6c;
-    width: 220px;
-    text-align: center;
 }
-
-
-.lenta_img {
-    width: 270px;
-    height: 270px;
-    margin: -25px 0 0 30px;
+.lenta_card1:hover .fishnet_lenta{
+    bottom: 114px;
+    opacity: 1;
 }
-
+.lenta_card1:hover .text_lenta{
+    bottom: 68px;
+    opacity: 1;
+}
+.lenta_card1:hover .button_featured{
+    bottom: 158px;
+    opacity: 1;
+}
 /*Новый блок*/
 .exclusive {
     display: flex;
-    position: absolute;
-    top: 1409px;
 }
 
 .exclusive_left {
     width: 683px;
     height: 683px;
     background: url("../images/exclusive_fon_left.png");
+    padding: 228px 250px 0 51px;
+    box-sizing: border-box;
 }
 
 .exclusive_right {
     width: 683px;
     height: 683px;
     background: url("../images/exclusive_fon_right.png");
+    padding: 228px 250px 0 51px;
+    box-sizing: border-box;
 }
 
 .exclusive_text {
-    margin-top: 228px;
-    margin-left: 51px;
-    margin-bottom: 0;
+    margin: 0;
     font-family: Montserrat;
     font-size: 18px;
-    line-height: 48px;
     font-weight: 700;
     text-transform: uppercase;
     letter-spacing: 0.1em;
@@ -335,9 +374,7 @@ body {
 }
 
 .fishnet_chair_exclusive {
-    margin-top: 0;
-    margin-left: 51px;
-    margin-bottom: 0;
+    margin: 17px 0 0 0;
     font-family: Montserrat;
     font-size: 36px;
     line-height: 1.2;
@@ -346,9 +383,7 @@ body {
 }
 
 .kratko_exclusive {
-    margin-left: 51px;
-    margin-bottom: 0;
-    width: 400px;
+    margin: 5px 0 0 0;
     font-family: Montserrat;
     font-size: 14.1px;
     line-height: 24px;
@@ -362,8 +397,7 @@ body {
     background-color: #ffffff;
     border: none;
     border-radius: 22.5px;
-    margin-left: 50px;
-    margin-top: 10px;
+    margin: 20px 0 0 0;
     font-family: Montserrat;
     font-size: 18px;
     line-height: 24px;
@@ -382,14 +416,20 @@ body {
     color: green;
 }
 
-.trending_products {
-    position: relative;
-    top: 1411px;
-    left: 98px;
+/*Новый блок*/
+.trending_product {
+    padding: 0 98px;
+}
+
+.trend_text {
+    width: 100%;
     display: flex;
+    justify-content: space-between;
+    padding: 119px 0 64px 0;
 }
 
 .trending_products_text {
+    margin: 0;
     font-family: Montserrat;
     font-size: 36px;
     line-height: 1.2;
@@ -397,7 +437,122 @@ body {
     color: #212121;
 }
 
+.trending_imgs {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    padding-bottom: 90px;
+}
+.trending_imgs img{
+    margin-bottom: 30px;
+}
 .trending_explore_all {
+    font-family: Montserrat;
+    font-size: 18px;
+    font-weight: 700;
+    text-transform: uppercase;
+    letter-spacing: 0.2em;
+    color: #212121;
+    background-color: white;
+    border: none;
+    height: 40px;
+}
+
+.trending_explore_all:hover {
+    outline: none;
+    color: yellowgreen;
+    cursor: pointer;
+}
+
+.trending_explore_all:focus {
+    outline: none;
+    color: green;
+}
+
+/*Новый блок*/
+.stol {
+    background: url("../images/stol_fon.png");
+    width: 1366px;
+    height: 800px;
+    display: flex;
+    padding: 0 98px;
+    box-sizing: border-box;
+}
+
+.hot_block {
+    padding: 287px 0 0 0;
+}
+
+.hot_deal {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 18px;
+    font-weight: 700;
+    text-transform: uppercase;
+    letter-spacing: 0.1em;
+    color: #e53935;
+}
+/*Новый блок*/
+.podyshka_products {
+    display: flex;
+    padding: 120px 98px 94px 98px;
+}
+
+.podyshka {
+    width: 570px;
+    height: 570px;
+    background: url("../images/podyshka_fon.png");
+    box-sizing: border-box;
+    margin-right: 30px;
+    padding: 176px 200px 0 51px;
+}
+.podyshka_imgs {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    width: 50%;
+}
+
+.podyshka_img {
+    width: 270px;
+    height: 270px;
+    margin-bottom: 26px;
+}
+.podyshka_text {
+    margin: 0;
+    font-family: Montserrat;
+    font-size: 18px;
+    line-height: 48px;
+    font-weight: 700;
+    text-transform: uppercase;
+    letter-spacing: 0.1em;
+    color: #1e88e5;
+}
+
+.fishnet_chair_podyshka {
+    margin: 0;
+    font-family: Montserrat;
+    font-size: 36px;
+    line-height: 1.2;
+    font-weight: 700;
+    color: #212121;
+}
+
+.kratko_podyshka {
+    margin: 10px 0 0 0;
+    font-family: Montserrat;
+    font-size: 14.1px;
+    line-height: 24px;
+    font-weight: 300;
+    color: #6c6c6c;
+}
+
+.order_us_podyshka {
+    width: 212px;
+    height: 45px;
+    background-color: #ffffff;
+    border: none;
+    border-radius: 22.5px;
+    margin: 30px 0 0 0;
     font-family: Montserrat;
     font-size: 18px;
     line-height: 24px;
@@ -405,9 +560,61 @@ body {
     text-transform: uppercase;
     letter-spacing: 0.2em;
     color: #212121;
-    background-color: white;
-    border: none;
-    position: absolute;
-    margin-left: 661px;
-    margin-top: 0px;
+}
+
+.order_us_podyshka:hover {
+    border: 2px solid yellow;
+}
+
+.order_us_podyshka:focus {
+    outline: none;
+    color: green;
+}
+
+/*Новый блок*/
+.predfooter {
+    background: url("../images/fon_predfooter.png");
+    width: 1366px;
+    height: 516px;
+    padding: 125px 0 0 99px;
+    box-sizing: border-box;
+}
+
+.mobile_app {
+    margin: 0;
+    font-family: Montserrat;
+    font-size: 18px;
+    font-weight: 700;
+    text-transform: uppercase;
+    letter-spacing: 0.1em;
+    color: #6c6c6c;
+}
+
+.discover_text {
+    margin: 7px 0 0 0;
+    font-family: Montserrat;
+    font-size: 62px;
+    font-weight: 100;
+    text-transform: uppercase;
+    color: #212121;
+    width: 550px;
+}
+
+.discover_text2 {
+    margin: 10px 0 30px 0;
+    font-family: Montserrat;
+    font-size: 22px;
+    font-weight: 300;
+    color: #6c6c6c;
+}
+
+.gp_img {
+    padding-left: 10px;
+}
+
+.footer {
+    margin-top: 40px;
+    width: 1366px;
+    height: 384px;
+    background-color: #f7f7f7;
 }
