@@ -268,15 +268,96 @@ body {
     width: 100%;
 }
 .lenta_card1{
+    background: url("../images/featured_img0.png");
     width: 270px;
     height: 270px;
     position: relative;
     cursor: pointer;
     overflow: hidden;
-    border: 1px solid black;
+}
+.lenta_card2{
+    background: url("../images/featured_img1.png");
+    width: 270px;
+    height: 270px;
+    position: relative;
+    cursor: pointer;
+    overflow: hidden;
+}
+.lenta_card3{
+    background: url("../images/featured_img2.png");
+    width: 270px;
+    height: 270px;
+    position: relative;
+    cursor: pointer;
+    overflow: hidden;
+}
+.lenta_card4{
+    background: url("../images/featured_img3.png");
+    width: 270px;
+    height: 270px;
+    position: relative;
+    cursor: pointer;
+    overflow: hidden;
 }
 .lenta_card1:hover{
-    border: 1px solid black;
+    box-shadow: 0 0 1px 1px black;
+}
+.lenta_card1:hover .fishnet_lenta{
+    bottom: 114px;
+    opacity: 1;
+}
+.lenta_card1:hover .text_lenta{
+    bottom: 68px;
+    opacity: 1;
+}
+.lenta_card1:hover .button_featured{
+    bottom: 158px;
+    opacity: 1;
+}
+.lenta_card2:hover{
+    box-shadow: 0 0 1px 1px black;
+}
+.lenta_card2:hover .fishnet_lenta{
+    bottom: 114px;
+    opacity: 1;
+}
+.lenta_card2:hover .text_lenta{
+    bottom: 68px;
+    opacity: 1;
+}
+.lenta_card2:hover .button_featured{
+    bottom: 158px;
+    opacity: 1;
+}
+.lenta_card3:hover{
+    box-shadow: 0 0 1px 1px black;
+}
+.lenta_card3:hover .fishnet_lenta{
+    bottom: 114px;
+    opacity: 1;
+}
+.lenta_card3:hover .text_lenta{
+    bottom: 68px;
+    opacity: 1;
+}
+.lenta_card3:hover .button_featured{
+    bottom: 158px;
+    opacity: 1;
+}
+.lenta_card4:hover{
+    box-shadow: 0 0 1px 1px black;
+}
+.lenta_card4:hover .fishnet_lenta{
+    bottom: 114px;
+    opacity: 1;
+}
+.lenta_card4:hover .text_lenta{
+    bottom: 68px;
+    opacity: 1;
+}
+.lenta_card4:hover .button_featured{
+    bottom: 158px;
+    opacity: 1;
 }
 .button_featured{
     width: 100%;
@@ -330,18 +411,7 @@ body {
     font-weight: 300;
     color: #6c6c6c;
 }
-.lenta_card1:hover .fishnet_lenta{
-    bottom: 114px;
-    opacity: 1;
-}
-.lenta_card1:hover .text_lenta{
-    bottom: 68px;
-    opacity: 1;
-}
-.lenta_card1:hover .button_featured{
-    bottom: 158px;
-    opacity: 1;
-}
+
 /*Новый блок*/
 .exclusive {
     display: flex;
@@ -695,6 +765,7 @@ body {
     color: black;
 }
 .links_footer3{
+    height: 50px;
     font-family: Montserrat;
     font-size: 14px;
     line-height: 22px;
@@ -720,4 +791,31 @@ body {
 }
 .text_social {
     margin: 0 0 0 140px;
+}
+.button{
+    width: 400px;
+    height: 400px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: white;
+    opacity: .9;
+}
+.btn{
+    display: flex;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 48px;
+    height: 48px;
+    box-shadow: 0 0 5px 2px rgba(0,0,0,.3);
+    border-radius: 50%;
+    background: white;
+}
+.box{
+    width: 10px;
+    height: 10px;
+    border-top: 3px solid black;
+    border-right: 3px solid black;
+    transform: rotate(45deg);
 }
