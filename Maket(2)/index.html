@@ -4,19 +4,22 @@
     <meta charset="UTF-8">
     <title>Chairs</title>
     <link rel="stylesheet" href="styles/styles.css">
+    <link rel="stylesheet" href="styles/metastyles.css">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0">
 </head>
 <body>
 <div class="containter">
     <div class="header">
         <div class="navigation_main">
-            <a href="index.html"><img src="images/logo_main.png" alt="logo" class="logo_img"></a>
+            <a href="index.html"><img src="images/logo_main.png" alt="logo"></a>
             <ul class="navigation">
                 <li><a href="index.html" class="menu_style">Home</a></li>
                 <li><a href="#" class="menu_style">Products</a></li>
                 <li><a href="#" class="menu_style">History</a></li>
                 <li><a href="#" class="menu_style">Showroom</a></li>
                 <li><a href="#" class="menu_style">Contact</a></li>
-                <li><a href="#"><img src="images/search.png" alt="search_img"></a></li>
+                <li><a href="#"><img src="images/search.png" alt="search_img" class="search_img"></a></li>
             </ul>
         </div>
         <div class="text_header">
@@ -27,9 +30,11 @@
             </p>
             <button class="order_us">ORDER US ></button>
         </div>
-    </div>
-    <div class="scroll_navigation">
-
+        <div class="scroll_navigation">
+            <button class="button_left"></button>
+            <button class="button_center"></button>
+            <button class="button_right"></button>
+        </div>
     </div>
     <div class="featured_new">
         <div class="featured_new_text">
@@ -124,12 +129,12 @@
             <button class="trending_explore_all">EXPLORE ALL ></button>
         </div>
         <div class="trending_imgs">
-            <a href="#"><img src="images/trend1.png" alt="trend1_img"></a>
-            <a href="#"><img src="images/trend2.png" alt="trend2_img"></a>
-            <a href="#"><img src="images/trend3.png" alt="trend3_img"></a>
-            <a href="#"><img src="images/trend4.png" alt="trend4_img"></a>
-            <a href="#"><img src="images/trend5.png" alt="trend5_img"></a>
-            <a href="#"><img src="images/trend6.png" alt="trend6_img"></a>
+            <a href="#"><img src="images/trend1.png" alt="trend1_img" class="trend_img_size"></a>
+            <a href="#"><img src="images/trend2.png" alt="trend2_img" class="trend_img_size"></a>
+            <a href="#"><img src="images/trend3.png" alt="trend3_img" class="trend_img_size"></a>
+            <a href="#"><img src="images/trend4.png" alt="trend4_img" class="trend_img_size"></a>
+            <a href="#"><img src="images/trend5.png" alt="trend5_img" class="trend_img_size"></a>
+            <a href="#"><img src="images/trend6.png" alt="trend6_img" class="trend_img_size"></a>
         </div>
     </div>
     <div class="stol">
@@ -141,27 +146,31 @@
             </p>
             <button class="order_us">ORDER US ></button>
         </div>
-    </div>
-    <div class="scroll_navigation">
-
+        <div class="scroll_navigation">
+            <button class="button_left"></button>
+            <button class="button_center"></button>
+            <button class="button_right"></button>
+        </div>
     </div>
     <div class="podyshka_products">
         <div class="podyshka">
-            <p class="podyshka_text">Exclusive</p>
+            <div class="text_podyshka">
+            <p class="podyshka_exclusive">Exclusive</p>
             <p class="fishnet_chair_podyshka">Fishnet chair</p>
             <p class="kratko_podyshka">Seat and back with upholstery made of cold cure foam. Steel frame, available in
                 matt
             </p>
             <button class="order_us_podyshka">ORDER US ></button>
+            </div>
         </div>
         <div class="podyshka_imgs">
-            <a href="#"><img src="images/podyshka1_img.png" alt="podyshka1_img"
+            <a href=""><img src="images/podyshka1_img.png" alt="podyshka1_img"
                              class="podyshka_img"></a>
-            <a href="#"><img src="images/podyshka2_img.png" alt="podyshka2_img"
+            <a href=""><img src="images/podyshka2_img.png" alt="podyshka2_img"
                              class="podyshka_img"></a>
-            <a href="#"><img src="images/podyshka3_img.png" alt="podyshka3_img"
+            <a href=""><img src="images/podyshka3_img.png" alt="podyshka3_img"
                              class="podyshka_img"></a>
-            <a href="#"><img src="images/podyshka4_img.png" alt="podyshka4_img"
+            <a href=""><img src="images/podyshka4_img.png" alt="podyshka4_img"
                              class="podyshka_img"></a>
         </div>
     </div>
@@ -200,10 +209,13 @@
                 <div class="links_footer3">
                     Suscribe to know about our latest news, products and special offers just for suscribers.
                 </div>
+                <form action="#" class="form">
+                    <label><input type="text" placeholder="your email adress" class="pole"></label>
+                </form>
             </div>
         </div>
         <div class="niz_text">
-            &copy; Copyright - INTERIOR 2016. All Rights Reserved.
+            <span>&copy; Copyright - INTERIOR 2016. All Rights Reserved.</span>
             <a href="#"><img src="images/social_links.png" alt="" class="social"></a>
             <span class="text_social">Terms & Conditions / Privacy policy & Cookies</span>
         </div>
