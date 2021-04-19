@@ -72,6 +72,14 @@
     .niz_text {
         margin-top: 0;
     }
+
+    .telegram_btn {
+        position: absolute;
+        bottom: 20px;
+        right: 20px;
+        width: 20px;
+        height: 20px;
+    }
 }
 
 @media screen and (max-width: 1199.98px) {
@@ -131,7 +139,7 @@
 @media screen and (max-width: 991.98px) {
     .containter {
         width: 740px;
-        height: 5600px;
+        height: 5550px;
     }
 
     .header {
@@ -232,27 +240,51 @@
     }
 
     .footer {
-        padding: 0;
-        height: 400px;
+        padding: 10px 10px;
+        height: 330px;
     }
 
     .head2 {
-        margin-left: 60px;
+        margin-left: 115px;
     }
 
     .head3 {
-        margin-left: 250px;
+        margin-left: -15px;
         margin-right: 0;
     }
 
+    .links_footer_all {
+        display: flex;
+        flex-direction: column;
+        margin-left: 0;
+    }
+
+    .links_footer2 {
+        margin: 0;
+    }
+
     .links_footer3 {
+        margin: -160px 0 0 235px;
         width: 150px;
         height: 150px;
     }
 
     .pole {
-        width: 150px;
-        height: 48px;
+        width: 230px;
+        margin-left: 55px;
+    }
+
+    .form {
+        margin: 0 0 10px 180px;
+    }
+
+    .telegram_btn {
+        bottom: 14px;
+        right: 20px;
+    }
+
+    .text_social {
+        margin-left: 10px;
     }
 }
 
@@ -341,7 +373,7 @@
     }
 
     .head2 {
-        margin-left:80px;
+        margin-left: 80px;
     }
 
     .links_footer_all {
@@ -362,16 +394,24 @@
     .form {
         margin-left: 0;
     }
+
     .pole {
+        margin-left: 0;
         width: 350px;
         height: 48px;
     }
-    .social{
+
+    .social {
         margin-left: 0;
         margin-right: 10px;
     }
-    .text_social{
+
+    .text_social {
         margin-left: 0;
+    }
+
+    .telegram_btn {
+        bottom: 15px;
     }
 }
 

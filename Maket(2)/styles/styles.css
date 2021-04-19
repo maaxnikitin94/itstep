@@ -35,7 +35,6 @@ html, body {
 }
 
 
-
 .navigation li {
     list-style-type: none;
     margin: 0 15px;
@@ -664,7 +663,8 @@ html, body {
     justify-content: space-between;
     padding-top: 64px;
 }
-.trending_imgs a{
+
+.trending_imgs a {
     display: flex;
     margin-bottom: 20px;
 }
@@ -731,24 +731,24 @@ html, body {
     background: url("../images/podyshka_fon.png");
     box-sizing: border-box;
 }
-.text_podyshka{
+
+.text_podyshka {
     padding: 178px 150px 0 51px;
 }
 
 .podyshka_imgs {
     display: flex;
     width: 50%;
-    flex-wrap:wrap;
+    flex-wrap: wrap;
     justify-content: space-between;
 }
 
-.podyshka_imgs a{
+.podyshka_imgs a {
     height: 270px;
     width: 270px;
     margin-bottom: 30px;
     margin-left: 16px;
 }
-
 
 
 .podyshka_exclusive {
@@ -993,6 +993,7 @@ html, body {
 
 .form {
     margin-right: 10px;
+    position: relative;
 }
 
 
@@ -1008,4 +1009,12 @@ html, body {
     line-height: 22px;
     font-weight: 300;
     color: #6c6c6c;
+}
+
+.telegram_btn {
+    position: absolute;
+    bottom: 25px;
+    right: 20px;
+    width: 20px;
+    height: 20px;
 }
