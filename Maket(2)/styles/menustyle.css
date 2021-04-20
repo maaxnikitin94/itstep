@@ -24,6 +24,7 @@
     text-shadow: 0 0 1px black, 0 0 .65px black, 0 0 .65px black, 0 0 .65px black;
     color: black;
 }
+
 .menu_style_mob:hover:after,
 .menu_style_mob:focus:after {
     width: 100%;
@@ -33,10 +34,11 @@
 .menu_style_mob:focus:visited {
     width: 100%;
 }
-.hidden-menu{
+
+.hidden-menu {
     display: block;
     position: absolute;
-    list-style:none;
+    list-style: none;
     padding: 10px;
     margin: 0;
     box-sizing: border-box;
@@ -49,13 +51,16 @@
     -webkit-transform: translateZ(0);
     -webkit-backface-visibility: hidden;
 }
-.hidden-menu li{
+
+.hidden-menu li {
     margin-top: 10px;
 }
-.hidden-menu-ticker{
+
+.hidden-menu-ticker {
     display: none;
 }
-.btn-menu{
+
+.btn-menu {
     color: #fff;
     padding: 7px;
     position: absolute;
@@ -68,10 +73,12 @@
     -webkit-transform: translateZ(0);
     -webkit-backface-visibility: hidden;
 }
-.btn-menu:hover{
+
+.btn-menu:hover {
     box-shadow: 0 0 1px 1px black;
 }
-.btn-menu span{
+
+.btn-menu span {
     display: block;
     height: 3px;
     background-color: #43a047;
@@ -79,21 +86,11 @@
     transition: all .1s linear .23s;
     position: relative;
 }
-.btn-menu span.first{
+
+.btn-menu span.first {
     margin-top: 0;
 }
 
-.hidden-menu-ticker:checked ~ .hidden-menu{
+.hidden-menu-ticker:checked ~ .hidden-menu {
     right: 0;
-}
-.hidden-menu-ticker:checked ~ ..btn-menu span.first{
-    -webkit-transform: rotate(45deg);
-    top: 8px;
-}
-.hidden-menu-ticker:checked ~ ..btn-menu span.second{
-    opacity: 0;
-}
-.hidden-menu-ticker:checked ~ ..btn-menu span.third{
-    -webkit-transform: rotate(-45deg);
-    top: -8px;
 }
