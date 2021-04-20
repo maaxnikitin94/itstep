@@ -7,7 +7,7 @@ html, body {
 
 .containter {
     max-width: 1340px;
-    min-width: 320px;
+    min-width: 582px;
     height: 5710px;
     background-color: white;
     margin: 0 auto;
@@ -23,9 +23,12 @@ html, body {
     flex-wrap: wrap;
     padding: 0 98px;
     box-sizing: border-box;
+    position: relative;
 }
 
-
+.menu_mob{
+    display: none;
+}
 .navigation_main {
     height: 85px;
     width: 100%;
@@ -1025,11 +1028,4 @@ html, body {
 }
 .telegram_btn:focus{
     cursor: pointer;
-    bottom: 26px;
-    right: 21px;
-}
-.telegram_btn:active{
-    cursor: pointer;
-    bottom: 26px;
-    right: 21px;
 }

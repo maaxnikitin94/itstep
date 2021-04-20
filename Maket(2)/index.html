@@ -5,14 +5,31 @@
     <title>Chairs</title>
     <link rel="stylesheet" href="styles/styles.css">
     <link rel="stylesheet" href="styles/metastyles.css">
+    <link rel="stylesheet" href="styles/menustyle.css">
     <meta name="viewport"
           content="width=device-width, user-scalable=no, initial-scale=1.0">
 </head>
 <body>
 <div class="containter">
     <div class="header">
+        <div class="menu_mob">
+            <input type="checkbox" id="hmt" class="hidden-menu-ticker">
+            <label class="btn-menu" for="hmt">
+                <span class="first"></span>
+                <span class="second"></span>
+                <span class="third"></span>
+            </label>
+            <ul class="hidden-menu">
+                <li><a href="" class="menu_style_mob">Home</a></li>
+                <li><a href="" class="menu_style_mob">Products</a></li>
+                <li><a href="" class="menu_style_mob">History</a></li>
+                <li><a href="" class="menu_style_mob">Showroom</a></li>
+                <li><a href="" class="menu_style_mob">Contact</a></li>
+                <li><a href="" class="menu_style_mob">Search</a></li>
+            </ul>
+        </div>
         <div class="navigation_main">
-            <a href="index.html"><img src="images/logo_main.png" alt="logo"></a>
+            <a href="index.html"><img src="images/logo_main.png" alt="logo" class="logo_img"></a>
             <ul class="navigation">
                 <li><a href="index.html" class="menu_style">Home</a></li>
                 <li><a href="#" class="menu_style">Products</a></li>

@@ -89,6 +89,7 @@
 
     .header {
         background-position: center;
+        padding: 0 40px;
     }
 
     .navigation li {
@@ -140,6 +141,23 @@
     .containter {
         width: 740px;
         height: 5550px;
+        overflow: hidden;
+    }
+
+    .navigation {
+        display: none;
+    }
+
+    .logo_img {
+        margin-bottom: 80px;
+    }
+
+    .text_header {
+        margin-bottom: 50px;
+    }
+
+    .menu_mob {
+        display: unset;
     }
 
     .header {
@@ -294,6 +312,14 @@
         height: 5300px;
     }
 
+    .logo_img {
+        margin-right: 290px;
+    }
+
+    .text_header {
+        margin-bottom: 120px;
+    }
+
     .navigation_main {
         padding-top: 15px;
         height: 85px;
@@ -308,8 +334,13 @@
         font-size: 15px;
     }
 
+    .featured {
+        font-size: 30px;
+    }
+
     .new {
-        margin-right: 70px;
+        margin-right: 75px;
+        font-size: 30px;
     }
 
     .featured_new_text {
@@ -338,8 +369,15 @@
         margin-right: 5px;
     }
 
+    .stol {
+        padding: 0 55px;
+    }
+    .kratko{
+        width: 400px;
+    }
+
     .exclusive_left {
-        padding: 150px 0 0 30px;
+        padding: 150px 0 0 25px;
         background-position: right;
         height: 430px;
     }
@@ -348,6 +386,10 @@
         padding: 150px 0 0 20px;
         background-position: right;
         height: 430px;
+    }
+
+    .trending_products_text {
+        font-size: 30px;
     }
 
     .trend_img_size {
@@ -415,10 +457,3 @@
     }
 }
 
-/*@media screen and (max-width: 597px) {*/
-/*    .containter {*/
-/*        width: 320px;*/
-/*        height: 100%;*/
-/*        background: red;*/
-/*    }*/
-/*}*/

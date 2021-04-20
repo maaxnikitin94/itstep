@@ -1,0 +1,99 @@
+.menu_style_mob {
+    font-family: Montserrat;
+    font-size: 14px;
+    font-weight: bolder;
+    color: black;
+    text-transform: uppercase;
+    letter-spacing: 0.1em;
+    text-decoration: none;
+    position: relative;
+}
+
+.menu_style_mob:after {
+    display: block;
+    position: absolute;
+    left: 0;
+    width: 0;
+    height: 3px;
+    background-color: black;
+    content: "";
+    transition: width 0.3s ease-out;
+}
+
+.menu_style_mob:hover {
+    text-shadow: 0 0 1px black, 0 0 .65px black, 0 0 .65px black, 0 0 .65px black;
+    color: black;
+}
+.menu_style_mob:hover:after,
+.menu_style_mob:focus:after {
+    width: 100%;
+}
+
+.menu_style_mob:hover:visited,
+.menu_style_mob:focus:visited {
+    width: 100%;
+}
+.hidden-menu{
+    display: block;
+    position: absolute;
+    list-style:none;
+    padding: 10px;
+    margin: 0;
+    box-sizing: border-box;
+    width: 130px;
+    height: 190px;
+    top: 90px;
+    right: -130px;
+    transition: right 1s;
+    z-index: 3;
+    -webkit-transform: translateZ(0);
+    -webkit-backface-visibility: hidden;
+}
+.hidden-menu li{
+    margin-top: 10px;
+}
+.hidden-menu-ticker{
+    display: none;
+}
+.btn-menu{
+    color: #fff;
+    padding: 7px;
+    position: absolute;
+    top: 60px;
+    right: 75px;
+    cursor: pointer;
+    transition: right .23s;
+    z-index: 3;
+    width: 30px;
+    -webkit-transform: translateZ(0);
+    -webkit-backface-visibility: hidden;
+}
+.btn-menu:hover{
+    box-shadow: 0 0 1px 1px black;
+}
+.btn-menu span{
+    display: block;
+    height: 3px;
+    background-color: #43a047;
+    margin: 5px 0 0;
+    transition: all .1s linear .23s;
+    position: relative;
+}
+.btn-menu span.first{
+    margin-top: 0;
+}
+
+.hidden-menu-ticker:checked ~ .hidden-menu{
+    right: 0;
+}
+.hidden-menu-ticker:checked ~ ..btn-menu span.first{
+    -webkit-transform: rotate(45deg);
+    top: 8px;
+}
+.hidden-menu-ticker:checked ~ ..btn-menu span.second{
+    opacity: 0;
+}
+.hidden-menu-ticker:checked ~ ..btn-menu span.third{
+    -webkit-transform: rotate(-45deg);
+    top: -8px;
+}
