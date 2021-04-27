@@ -9,7 +9,6 @@ html, body {
     margin: 0 auto;
     background-color: white;
     cursor: default;
-
 }
 
 .header {
@@ -91,7 +90,7 @@ html, body {
     background-color: whitesmoke;
     padding: 50px;
     margin: 0;
-    height: 350px;
+    height: 380px;
 }
 
 .h2_pluses {
@@ -122,7 +121,6 @@ html, body {
     width: 550px;
 }
 
-
 summary {
     display: block;
     margin-left: -10px;
@@ -142,6 +140,7 @@ summary:before {
 
 summary:active:before {
     padding-top: 10px;
+    content: '\f146';
 }
 
 .screenshots {
@@ -375,7 +374,7 @@ summary:active:before {
 }
 
 .standart:hover {
-    box-shadow: 0 3px 2px 2px black;
+    box-shadow: 0 5px 25px 10px rgba(0,0,0,.4);
 }
 
 .premium {
@@ -388,7 +387,7 @@ summary:active:before {
 }
 
 .premium:hover {
-    box-shadow: 0 3px 2px 2px black;
+    box-shadow: 0 5px 25px 10px rgba(0,0,0,.4);
 }
 
 .lux {
@@ -401,7 +400,7 @@ summary:active:before {
 }
 
 .lux:hover {
-    box-shadow: 0 3px 2px 2px black;
+    box-shadow: 0 5px 25px 10px rgba(0,0,0,.4);
 }
 
 .st_pr_lx_zag {
@@ -601,9 +600,6 @@ summary:active:before {
     pointer-events: fill;
 }
 
-.social img:hover {
-    box-shadow: 2px 2px 4px 4px white;
-}
 
 .social_links {
     text-decoration: none;
@@ -612,11 +608,12 @@ summary:active:before {
     line-height: 24px;
     font-weight: 400;
     color: #ffffff;
-    pointer-events: none;
+}
+.social_links:hover {
+    box-shadow: 2px 3px 10px 4px white;
 }
 
-
-.footer {
+.footer p {
     text-align: center;
     font-family: Arial;
     font-size: 12px;
@@ -625,9 +622,5 @@ summary:active:before {
     color: gray;
     height: 26px;
     background-color: whitesmoke;
-    margin: 0;
-}
-
-.footer p {
     margin: 0;
 }

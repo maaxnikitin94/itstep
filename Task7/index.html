@@ -9,7 +9,7 @@
 <body>
 <div class="container">
     <header class="header">
-        <article>
+        <div>
             <h1 class="product_name">Lineage II</h1>
             <ul class="header_ul">
                 <li>Здесь Вы сможете подобрать уникальный стартовый пакет для игры</li>
@@ -17,7 +17,7 @@
                 <li>Увидете достоинства и недостатки каждого набора</li>
                 <li>Сможете приобрести выбранный набор в один клик</li>
             </ul>
-        </article>
+        </div>
         <a href="index.html"><img src="images/l2_header.jpg" alt="l2_header_img"></a>
     </header>
     <main class="main">
@@ -36,7 +36,7 @@
             <ul class="pluses_ul">
                 <li>
                     <details open>
-                        <summary></summary>
+                        <summary>Прокачка</summary>
                         Автоматическая прокачка. Персонаж будет убивать монстров ,
                         использовать баффы и расходники самостоятельно.Это позволяет играть в достаточно расслабленном
                         режиме.
@@ -44,14 +44,14 @@
                 </li>
                 <li>
                     <details open>
-                        <summary></summary>
+                        <summary>Бонусы</summary>
                         Сразу после создания персонажа сможете зайти в игровой магазин и взять там два бонусных
                         бесплатных набора.
                     </details>
                 </li>
                 <li>
                     <details open>
-                        <summary></summary>
+                        <summary>Волшебная зона</summary>
                         Начиная с 0 уровня мы сможем посещать волшебную зону на 100 минут один раз в день. Обязательная
                         для
                         посещения,т.к. в этом данже не падает адена, но в больших количествах падают предметы.
@@ -59,21 +59,21 @@
                 </li>
                 <li>
                     <details open>
-                        <summary></summary>
+                        <summary>Количество окон</summary>
                         Возможность играть в 3 и более окон с одного компьютера без подключения стороннего ПО, сразу же
                         после покупки одного из наборов.
                     </details>
                 </li>
                 <li>
                     <details open>
-                        <summary></summary>
+                        <summary>Примиум-магазин</summary>
                         Отдельный премиальный магазин, в котором можно найти эксклюзивные аксессуары, головные уборы и
                         плащи.
                     </details>
                 </li>
                 <li>
                     <details open>
-                        <summary></summary>
+                        <summary>Волшебные Монеты</summary>
                         Выдача Волшебных Монет каждые 30 минут игрового времени, которые в магазине можно обменять на
                         адену и благ. заточки.
                     </details>
@@ -82,7 +82,7 @@
         </section>
         <section class="screenshots">
             <h2 class="h2_screenshots">При покупке одного из наборов, Вы получаете:</h2>
-            <section class="screen_blocks">
+            <div class="screen_blocks">
                 <figure class="block1">
                     <a href="#"></a>
                     <div class="block_text">
@@ -115,11 +115,11 @@
                             оружия/брони/бижутерии, любого уровня и качества с момента покупки любого набора.</p>
                     </div>
                 </figure>
-            </section>
+            </div>
         </section>
         <section class="reviews">
             <h2 class="h2_reviews">Отзывы</h2>
-            <section class="reviews_blocks">
+            <div class="reviews_blocks">
                 <figure class="block_reviews">
                     <a href="#" class="rev1"></a>
                     <div class="block_text_reviews">
@@ -156,12 +156,12 @@
                             <span class="podpis">Incognito</span></p>
                     </div>
                 </figure>
-            </section>
+            </div>
         </section>
         <section class="buy_now">
             <h2 class="h2_buy">Купите прямо сейчас</h2>
-            <section class="buy_box">
-                <div class="standart">
+            <div class="buy_box">
+                <article class="standart">
                     <p class="st_pr_lx_zag">Usual</p>
                     <p class="price">$ 100</p>
                     <ol class="buy_ol">
@@ -171,8 +171,8 @@
                         <li>500кк адены на расходы.</li>
                     </ol>
                     <button class="buy_button">BUY</button>
-                </div>
-                <div class="premium">
+                </article>
+                <article class="premium">
                     <p class="st_pr_lx_zag">Rare</p>
                     <p class="price">$ 150</p>
                     <ol class="buy_ol">
@@ -186,8 +186,8 @@
                         <li>Заточка в одно нажатие.</li>
                     </ol>
                     <button class="buy_button">BUY</button>
-                </div>
-                <div class="lux">
+                </article>
+                <article class="lux">
                     <p class="st_pr_lx_zag">Unique</p>
                     <p class="price">$ 300</p>
                     <ol class="buy_ol">
@@ -205,12 +205,14 @@
                         <li>Снятие PK стоит 1 адена.</li>
                     </ol>
                     <button class="buy_button">BUY</button>
-                </div>
-            </section>
+                </article>
+            </div>
         </section>
-        <section class="contacts">
+    </main>
+    <footer class="footer">
+        <div class="contacts">
             <h2 class="h2_contacts">Наши контакты</h2>
-            <section class="our_contact">
+            <div class="our_contact">
                 <form action="#" class="form">
                     <input type="text" placeholder="Your name:" class="input_name">
                     <input type="email" placeholder="Your email:" class="input_email">
@@ -225,10 +227,8 @@
                                                           alt="email_ico">lineage2pack@mail.ru</a>
                     <a href="#" class="social_links"><img src="images/phone.png" alt="phone_ico">80 00 4568 55 55</a>
                 </div>
-            </section>
-        </section>
-    </main>
-    <footer class="footer">
+            </div>
+        </div>
         <p>Copyring &copy; 2014 Product name - PSD HTML CSS</p>
     </footer>
 </div>
