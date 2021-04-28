@@ -52,6 +52,11 @@ html, body {
     height: 244px;
     padding-top: 10px;
 }
+.header video{
+    width: 469px;
+    height: 244px;
+    padding-top: 10px;
+}
 
 .about {
     padding: 50px;
@@ -138,8 +143,7 @@ summary:before {
     padding-top: 8px;
     float: left;
 }
-
-summary:active:before {
+details[open] summary:before {
     padding-top: 10px;
     content: '\f146';
 }
