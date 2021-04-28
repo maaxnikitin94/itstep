@@ -42,17 +42,8 @@ html, body {
     margin: 0;
 }
 
-.header a {
-    width: 469px;
-    height: 254px;
-}
 
-.header img {
-    width: 469px;
-    height: 244px;
-    padding-top: 10px;
-}
-.header video{
+.header video {
     width: 469px;
     height: 244px;
     padding-top: 10px;
@@ -143,6 +134,7 @@ summary:before {
     padding-top: 8px;
     float: left;
 }
+
 details[open] summary:before {
     padding-top: 10px;
     content: '\f146';
@@ -169,7 +161,8 @@ details[open] summary:before {
     padding-top: 35px;
     margin: 0;
 }
-.screen_blocks a:hover{
+
+.screen_blocks a:hover {
     box-shadow: 2px 2px 20px 3px black;
 }
 
