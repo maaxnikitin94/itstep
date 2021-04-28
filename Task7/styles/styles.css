@@ -1,0 +1,629 @@
+html, body {
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    width: 1280px;
+    height: 2863px;
+    margin: 0 auto;
+    background-color: white;
+    cursor: default;
+}
+
+.header {
+    height: 300px;
+    background-color: #445161;
+    display: flex;
+    justify-content: space-between;
+    padding: 50px;
+}
+
+
+.product_name {
+    font-family: Arial;
+    font-size: 60px;
+    line-height: 1.2;
+    font-weight: 400;
+    text-shadow: 0 1px 0 rgba(0, 0, 0, 0.3);
+    color: #ffffff;
+    margin: 0;
+}
+
+.header_ul {
+    font-family: Arial;
+    font-size: 20px;
+    line-height: 45px;
+    font-weight: 400;
+    text-shadow: 0 1px 0 rgba(0, 0, 0, 0.3);
+    color: #ffffff;
+    list-style-image: url("../images/gal_menu.png");
+    padding-top: 30px;
+    margin: 0;
+}
+
+.header a {
+    width: 469px;
+    height: 254px;
+}
+
+.header img {
+    width: 469px;
+    height: 244px;
+    padding-top: 10px;
+}
+
+.about {
+    padding: 50px;
+    margin: 0;
+    display: flex;
+    justify-content: space-between;
+}
+
+.about img:hover {
+    box-shadow: 0 3px 4px 2px black;
+}
+
+.h2_about {
+    font-family: Arial;
+    font-size: 30px;
+    line-height: 36px;
+    font-weight: 400;
+    color: #445161;
+    margin-top: -1px;
+}
+
+.about p {
+    font-family: Arial;
+    font-size: 16px;
+    line-height: 24px;
+    font-weight: 400;
+    color: #333333;
+    width: 680px;
+}
+
+.about img {
+    width: 470px;
+    height: 245px;
+}
+
+.pluses_product {
+    background-color: whitesmoke;
+    padding: 50px;
+    margin: 0;
+    height: 380px;
+}
+
+.h2_pluses {
+    font-family: Arial;
+    font-size: 30px;
+    line-height: 36px;
+    font-weight: 400;
+    color: #445161;
+    text-align: center;
+    margin: 0;
+}
+
+.pluses_ul {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    font-family: Arial;
+    font-size: 16px;
+    line-height: 24px;
+    font-weight: 400;
+    color: #333333;
+    margin: 29px 0 0 0;
+    list-style-type: none;
+}
+
+.pluses_ul li {
+    margin-bottom: 35px;
+    width: 550px;
+}
+
+summary {
+    display: block;
+    margin-left: -10px;
+    cursor: pointer;
+}
+
+summary:before {
+    content: '\f0fe';
+    font-family: 'Font Awesome 5 Free', 'Font Awesome 5 Brands';
+    font-size: 35px;
+    font-weight: 900;
+    margin-left: -25px;
+    margin-right: 5px;
+    padding-top: 8px;
+    float: left;
+}
+
+summary:active:before {
+    padding-top: 10px;
+    content: '\f146';
+}
+
+.screenshots {
+    padding: 50px 50px 0 50px;
+}
+
+.h2_screenshots {
+    font-family: Arial;
+    font-size: 30px;
+    line-height: 36px;
+    font-weight: 400;
+    color: #445161;
+    text-align: center;
+    margin: 0;
+}
+
+.screen_blocks {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    padding-top: 35px;
+    margin: 0;
+}
+.screen_blocks a:hover{
+    box-shadow: 2px 2px 20px 3px black;
+}
+
+.block1, .block2, .block3, .block4 {
+    margin: 0 0 30px 0;
+    display: flex;
+}
+
+.block1 a {
+    width: 200px;
+    height: 150px;
+    background: url("../images/screen_armor.jpg");
+    background-size: cover;
+}
+
+.block2 a {
+    width: 200px;
+    height: 150px;
+    background: url("../images/screen_weapon.jpg");
+    background-size: cover;
+}
+
+.block3 a {
+    width: 200px;
+    height: 150px;
+    background: url("../images/screen_jewel.jpg");
+    background-size: cover;
+    background-position-y: -25px;
+}
+
+.block4 a {
+    width: 200px;
+    height: 150px;
+    background: url("../images/screen_ls.jpg");
+    background-size: 260px 260px;
+    background-position-y: -35px;
+}
+
+.h3_screenshots {
+    font-family: Arial;
+    font-size: 24px;
+    line-height: 30px;
+    font-weight: 400;
+    color: #445161;
+    margin: -5px 0 0 0;
+}
+
+.p_screenshots {
+    font-family: Arial;
+    font-size: 16px;
+    line-height: 24px;
+    font-weight: 400;
+    color: #333333;
+    width: 370px;
+    margin: 10px 0 0 0;
+}
+
+
+.block_text {
+    padding-left: 15px;
+}
+
+.reviews {
+    background-color: whitesmoke;
+    padding: 50px 50px 20px 50px;
+}
+
+.h2_reviews {
+    font-family: Arial;
+    font-size: 30px;
+    line-height: 36px;
+    font-weight: 400;
+    color: #445161;
+    margin: 0;
+    text-align: center;
+}
+
+.reviews_blocks {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    padding-top: 35px;
+    margin: 0;
+}
+
+.block_reviews {
+    margin: 0 0 30px 0;
+    display: flex;
+}
+
+.block_reviews a:hover {
+    box-shadow: 0 3px 15px 5px black;
+}
+
+.rev1 {
+    width: 75px;
+    height: 75px;
+    border-radius: 50%;
+    background: url("../images/rev1.jpg");
+    background-size: 150px 130px;
+    background-position-x: -30px;
+}
+
+.rev2 {
+    width: 75px;
+    height: 75px;
+    border-radius: 50%;
+    background: url("../images/rev2.jpg");
+    background-size: 150px 130px;
+    background-position-x: -40px;
+    background-position-y: -25px;
+}
+
+.rev3 {
+    width: 75px;
+    height: 75px;
+    border-radius: 50%;
+    background: url("../images/rev3.jpg");
+    background-size: 130px 130px;
+    background-position-x: -20px;
+    background-position-y: -10px;
+}
+
+.rev4 {
+    width: 75px;
+    height: 75px;
+    border-radius: 50%;
+    background: url("../images/rev4.jpg");
+    background-size: 130px 130px;
+    background-position-x: -20px;
+    background-position-y: -10px;
+}
+
+.block_text_reviews {
+    padding-left: 35px;
+    height: 121px;
+    width: 463px;
+}
+
+.p_reviews {
+    font-family: Arial;
+    font-size: 14px;
+    line-height: 18px;
+    font-weight: 400;
+    font-style: italic;
+    color: #333333;
+    margin: 0;
+    position: relative;
+    background-color: lightgray;
+    border-radius: 5px;
+    padding: 10px 10px 0 10px;
+    white-space: normal;
+}
+
+.p_reviews:before {
+    content: ' ';
+    position: absolute;
+    width: 0;
+    height: 0;
+    top: 25px;
+    left: -10px;
+    transform: rotate(-45deg);
+    border: 10px solid;
+    border-color: lightgray transparent transparent lightgray;
+}
+
+.podpis {
+    font-family: Arial;
+    font-size: 14px;
+    line-height: 38px;
+    font-weight: 400;
+    color: #989898;
+}
+
+.buy_now {
+    padding: 50px 50px 0 50px;
+    height: 656px;
+    background-color: white;
+}
+
+.h2_buy {
+    font-family: Arial;
+    font-size: 30px;
+    line-height: 36px;
+    font-weight: 400;
+    color: #445161;
+    margin: 0;
+    text-align: center;
+}
+
+.buy_box {
+    display: flex;
+    justify-content: space-around;
+    align-items: flex-end;
+    padding-top: 29px;
+}
+
+.usual {
+    width: 300px;
+    height: 306px;
+    background: #445161;
+    border: 1px solid black;
+    border-radius: 5px;
+    position: relative;
+}
+
+.usual:hover {
+    box-shadow: 0 5px 25px 10px rgba(0, 0, 0, .4);
+}
+
+.rare {
+    width: 300px;
+    height: 404px;
+    background: #445161;
+    border: 1px solid black;
+    border-radius: 5px;
+    position: relative;
+}
+
+.rare:hover {
+    box-shadow: 0 5px 25px 10px rgba(0, 0, 0, .4);
+}
+
+.unique {
+    width: 300px;
+    height: 499px;
+    background: #445161;
+    border: 1px solid black;
+    border-radius: 5px;
+    position: relative;
+}
+
+.unique:hover {
+    box-shadow: 0 5px 25px 10px rgba(0, 0, 0, .4);
+}
+
+.st_pr_lx_zag {
+    font-family: Arial;
+    font-size: 24px;
+    line-height: 30px;
+    font-weight: 400;
+    color: #ffffff;
+    text-align: center;
+    margin: 0;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+.price {
+    width: 298px;
+    height: 71px;
+    border: 2px solid #445162;
+    background-color: white;
+    font-family: Arial;
+    font-size: 40px;
+    line-height: 70px;
+    font-weight: 400;
+    color: #445161;
+    text-align: center;
+    margin: 0;
+    position: absolute;
+    left: -1px;
+}
+
+.buy_ol {
+    padding-top: 90px;
+    margin: 0;
+}
+
+.buy_ol li {
+    font-family: Arial;
+    font-size: 14px;
+    line-height: 24px;
+    font-weight: 400;
+    color: #ffffff;
+}
+
+.buy_button {
+    width: 260px;
+    height: 40px;
+    background-color: #ffffff;
+    border-radius: 5px;
+    border: none;
+    margin: 0;
+    font-family: Arial;
+    font-size: 18px;
+    line-height: 18px;
+    font-weight: 700;
+    color: #445161;
+    position: absolute;
+    bottom: 20px;
+    left: 20px;
+    cursor: pointer;
+}
+
+.buy_button:hover {
+    border: 3px solid black;
+}
+
+.buy_button:active:focus {
+    color: gray;
+    bottom: 21px;
+    left: 21px;
+}
+
+.contacts {
+    height: 509px;
+    background: #445161;
+    padding: 53px 0 0 0;
+}
+
+.h2_contacts {
+    font-family: Arial;
+    font-size: 30px;
+    line-height: 36px;
+    font-weight: 400;
+    color: #ffffff;
+    margin: 0;
+    text-align: center;
+    width: 100%;
+    height: 30px;
+}
+
+.our_contact {
+    margin-top: 31px;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.form {
+    position: relative;
+    width: 800px;
+}
+
+.input_name {
+    margin-left: 249px;
+    width: 490px;
+    height: 40px;
+    background-color: #ffffff;
+    font-family: Arial;
+    font-size: 16px;
+    line-height: 24px;
+    font-weight: 400;
+    color: #445162;
+    padding-left: 10px;
+    border-radius: 8px;
+    padding-right: 10px;
+}
+
+.input_name:hover {
+    box-shadow: 0 0 2px 2px black;
+}
+
+.input_email {
+    margin-left: 249px;
+    margin-top: 21px;
+    width: 490px;
+    height: 40px;
+    background-color: #ffffff;
+    font-family: Arial;
+    font-size: 16px;
+    line-height: 24px;
+    font-weight: 400;
+    color: #445162;
+    padding-left: 10px;
+    border-radius: 8px;
+    padding-right: 10px;
+}
+
+.input_email:hover {
+    box-shadow: 0 0 2px 2px black;
+}
+
+.textarea_message {
+    margin-left: 249px;
+    margin-top: 21px;
+    width: 490px;
+    height: 170px;
+    background-color: #ffffff;
+    font-family: Arial;
+    font-size: 16px;
+    line-height: 24px;
+    font-weight: 400;
+    color: #445162;
+    padding-left: 10px;
+    border-radius: 8px;
+    padding-right: 10px;
+    resize: none;
+}
+
+.textarea_message:hover {
+    box-shadow: 0 0 2px 2px black;
+}
+
+.send_submit {
+    width: 140px;
+    height: 40px;
+    border-radius: 5px;
+    border: none;
+    background-color: #ffffff;
+    position: absolute;
+    bottom: -80px;
+    left: 450px;
+    font-family: Arial;
+    font-size: 16px;
+    line-height: 24px;
+    font-weight: 700;
+    text-transform: uppercase;
+    color: #445162;
+    cursor: pointer;
+}
+
+.send_submit:hover {
+    border: 3px solid black;
+}
+
+.send_submit:active:focus {
+    color: gray;
+    bottom: -81px;
+    left: 451px;
+}
+
+.social {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    height: 170px;
+    margin-left: 20px;
+}
+
+.social img {
+    margin-right: 10px;
+    margin-bottom: -5px;
+    pointer-events: fill;
+}
+
+
+.social_links {
+    text-decoration: none;
+    font-family: Arial;
+    font-size: 16px;
+    line-height: 24px;
+    font-weight: 400;
+    color: #ffffff;
+}
+
+.social_links:hover {
+    box-shadow: 2px 3px 10px 4px white;
+}
+
+.footer p {
+    text-align: center;
+    font-family: Arial;
+    font-size: 12px;
+    line-height: 25px;
+    font-weight: 400;
+    color: gray;
+    height: 26px;
+    background-color: whitesmoke;
+    margin: 0;
+}
