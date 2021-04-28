@@ -19,10 +19,6 @@ html, body {
     padding: 50px;
 }
 
-.header a {
-    width: 469px;
-    height: 254px;
-}
 
 .product_name {
     font-family: Arial;
@@ -44,6 +40,11 @@ html, body {
     list-style-image: url("../images/gal_menu.png");
     padding-top: 30px;
     margin: 0;
+}
+
+.header a {
+    width: 469px;
+    height: 254px;
 }
 
 .header img {
@@ -164,9 +165,8 @@ summary:active:before {
     padding-top: 35px;
     margin: 0;
 }
-
-.screen_blocks a:hover {
-    box-shadow: 0 3px 4px 2px black;
+.screen_blocks a:hover{
+    box-shadow: 2px 2px 20px 3px black;
 }
 
 .block1, .block2, .block3, .block4 {
@@ -194,7 +194,6 @@ summary:active:before {
     background: url("../images/screen_jewel.jpg");
     background-size: cover;
     background-position-y: -25px;
-
 }
 
 .block4 a {
@@ -364,7 +363,7 @@ summary:active:before {
     padding-top: 29px;
 }
 
-.standart {
+.usual {
     width: 300px;
     height: 306px;
     background: #445161;
@@ -373,11 +372,11 @@ summary:active:before {
     position: relative;
 }
 
-.standart:hover {
-    box-shadow: 0 5px 25px 10px rgba(0,0,0,.4);
+.usual:hover {
+    box-shadow: 0 5px 25px 10px rgba(0, 0, 0, .4);
 }
 
-.premium {
+.rare {
     width: 300px;
     height: 404px;
     background: #445161;
@@ -386,11 +385,11 @@ summary:active:before {
     position: relative;
 }
 
-.premium:hover {
-    box-shadow: 0 5px 25px 10px rgba(0,0,0,.4);
+.rare:hover {
+    box-shadow: 0 5px 25px 10px rgba(0, 0, 0, .4);
 }
 
-.lux {
+.unique {
     width: 300px;
     height: 499px;
     background: #445161;
@@ -399,8 +398,8 @@ summary:active:before {
     position: relative;
 }
 
-.lux:hover {
-    box-shadow: 0 5px 25px 10px rgba(0,0,0,.4);
+.unique:hover {
+    box-shadow: 0 5px 25px 10px rgba(0, 0, 0, .4);
 }
 
 .st_pr_lx_zag {
@@ -503,7 +502,7 @@ summary:active:before {
 
 .input_name {
     margin-left: 249px;
-    width: 500px;
+    width: 490px;
     height: 40px;
     background-color: #ffffff;
     font-family: Arial;
@@ -513,6 +512,7 @@ summary:active:before {
     color: #445162;
     padding-left: 10px;
     border-radius: 8px;
+    padding-right: 10px;
 }
 
 .input_name:hover {
@@ -522,7 +522,7 @@ summary:active:before {
 .input_email {
     margin-left: 249px;
     margin-top: 21px;
-    width: 500px;
+    width: 490px;
     height: 40px;
     background-color: #ffffff;
     font-family: Arial;
@@ -532,6 +532,7 @@ summary:active:before {
     color: #445162;
     padding-left: 10px;
     border-radius: 8px;
+    padding-right: 10px;
 }
 
 .input_email:hover {
@@ -541,7 +542,7 @@ summary:active:before {
 .textarea_message {
     margin-left: 249px;
     margin-top: 21px;
-    width: 500px;
+    width: 490px;
     height: 170px;
     background-color: #ffffff;
     font-family: Arial;
@@ -551,6 +552,7 @@ summary:active:before {
     color: #445162;
     padding-left: 10px;
     border-radius: 8px;
+    padding-right: 10px;
     resize: none;
 }
 
@@ -609,6 +611,7 @@ summary:active:before {
     font-weight: 400;
     color: #ffffff;
 }
+
 .social_links:hover {
     box-shadow: 2px 3px 10px 4px white;
 }
