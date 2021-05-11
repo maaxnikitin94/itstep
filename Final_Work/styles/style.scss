@@ -523,6 +523,7 @@ html, body {
 
 .our_focus_blocks_a {
   display: flex;
+  position: relative;
   height: 100%;
   text-decoration: none;
   font-family: Poppins, sans-serif;
@@ -576,8 +577,7 @@ html, body {
   font-weight: 400;
   color: #616161;
   text-align: center;
-  bottom: 67px;
-  left: 15px;
+  bottom: 57px;
 }
 
 .web_block:hover, .ux_block:hover, .photo_block:hover, .app_block:hover {
@@ -798,19 +798,19 @@ html, body {
   box-shadow: 0 1px 5px 15px white;
 }
 
-.tm_block1:active {
+.tm_block1:focus-within {
   box-shadow: 0 1px 5px 15px $color-red;
 }
 
-.tm_block2:active {
+.tm_block2:focus-within {
   box-shadow: 0 1px 5px 15px $color-green;
 }
 
-.tm_block3:active {
+.tm_block3:focus-within {
   box-shadow: 0 1px 5px 15px $color-purple;
 }
 
-.tm_block4:active {
+.tm_block4:focus-within {
   box-shadow: 0 1px 5px 15px $color-orange;
 }
 
@@ -823,7 +823,10 @@ html, body {
   left: 100px;
 }
 
-.tm_block1_comm:target ~ .quote_blocks1 {
+.tm_block1_comm:target ~ .quote_blocks1,
+.tm_block2_comm:target ~ .quote_blocks2,
+.tm_block3_comm:target ~ .quote_blocks3,
+.tm_block4_comm:target ~ .quote_blocks4 {
   @include tm_blocks_comm_target();
 }
 
@@ -837,9 +840,6 @@ html, body {
   left: 395px;
 }
 
-.tm_block2_comm:target ~ .quote_blocks2 {
-  @include tm_blocks_comm_target();
-}
 
 .quote_blocks3 {
   @include quote_blocks();
@@ -851,10 +851,6 @@ html, body {
   left: 685px;
 }
 
-.tm_block3_comm:target ~ .quote_blocks3 {
-  @include tm_blocks_comm_target();
-}
-
 .quote_blocks4 {
   @include quote_blocks();
   right: 0;
@@ -864,11 +860,6 @@ html, body {
   @include quote_blocks_before();
   right: 100px;
 }
-
-.tm_block4_comm:target ~ .quote_blocks4 {
-  @include tm_blocks_comm_target();
-}
-
 
 .quote_blocks_h3 {
   margin: 0;
