@@ -3,6 +3,8 @@
 <head>
     <meta charset="UTF-8">
     <link rel="stylesheet" href="styles/style.css">
+    <link rel="stylesheet" href="styles/mobmenustyle.css">
+    <link rel="stylesheet" href="styles/metastyle.css">
     <script src="https://kit.fontawesome.com/401687322e.js" crossorigin="anonymous"></script>
     <meta name="viewport"
           content="width=device-width, user-scalable=no, initial-scale=1.0">
@@ -10,8 +12,28 @@
 </head>
 <body>
 <div class="container">
+    <a href="#" class="to_main_a">Home</a>
     <header class="header">
         <a href="#" class="alexis_black"><span class="alexis_a_letter">A</span>lexis</a>
+        <div class="menu_mob">
+            <input type="checkbox" id="hmt" class="hidden-menu-ticker">
+            <label class="btn-menu" for="hmt">
+                <span class="first"></span>
+                <span class="second"></span>
+                <span class="third"></span>
+            </label>
+            <ul class="hidden-menu">
+                <li><a href="#about_us" class="menu_mob_item">About Us</a></li>
+                <li><a href="#our_focus" class="menu_mob_item">Our Focus</a></li>
+                <li><a href="#portfolio" class="menu_mob_item">Portfolio</a></li>
+                <li><a href="#our_team" class="menu_mob_item">Our Team</a></li>
+                <li><a href="#work_steps" class="menu_mob_item">Work Steps</a></li>
+                <li><a href="#pricing" class="menu_mob_item">Pricing</a></li>
+                <li><a href="#testimonials" class="menu_mob_item">Testimonials</a></li>
+                <li><a href="#blog" class="menu_mob_item">Blog</a></li>
+                <li><a href="#contact" class="menu_mob_item">Contact</a></li>
+            </ul>
+        </div>
         <ul class="menu">
             <li><a href="#about_us" class="menu_item">About Us</a></li>
             <li><a href="#our_focus" class="menu_item">Our Focus</a></li>
@@ -275,11 +297,11 @@
                             </div>
                             <div class="our_team_blocks">
                                 <div class="tm_block1">
-                                    <a href="#anchor_block1">
+                                    <a href="#anchor_block1" class="anchor_block1_a">
                                         <img src="images/tm_block1_photo.jpg" alt="tm_block1_photo"
                                              class="tm_block1_img">
                                         <p class="tm_block1_p">Michael Schmitt</p>
-                                        <span class="tm_block1_span">Founder & CEO</span>
+                                        <p class="tm_block1_p2">Founder & CEO</p>
                                     </a>
                                     <div class="quote_blocks1">
                                         <div class="quote_blocks_text">
@@ -312,11 +334,11 @@
                                     </div>
                                 </div>
                                 <div class="tm_block2">
-                                    <a href="#anchor_block2">
+                                    <a href="#anchor_block2" class="anchor_block2_a">
                                         <img src="images/tm_block2_photo.jpg" alt="tm_block2_photo"
                                              class="tm_block2_img">
                                         <p class="tm_block2_p">David Krämer</p>
-                                        <span class="tm_block2_span">Lead Developer</span>
+                                        <p class="tm_block2_p2">Lead Developer</p>
                                     </a>
                                     <div class="quote_blocks2">
                                         <div class="quote_blocks_text">
@@ -344,11 +366,11 @@
                                     </div>
                                 </div>
                                 <div class="tm_block3">
-                                    <a href="#anchor_block3">
+                                    <a href="#anchor_block3" class="anchor_block3_a">
                                         <img src="images/tm_block3_photo.jpg" alt="tm_block3_photo"
                                              class="tm_block3_img">
                                         <p class="tm_block3_p">Anna Schröder</p>
-                                        <span class="tm_block3_span">Designer</span>
+                                        <p class="tm_block3_p2">Designer</p>
                                     </a>
                                     <div class="quote_blocks3">
                                         <div class="quote_blocks_text">
@@ -387,11 +409,11 @@
                                     </div>
                                 </div>
                                 <div class="tm_block4">
-                                    <a href="#anchor_block4">
+                                    <a href="#anchor_block4" class="anchor_block4_a">
                                         <img src="images/tm_block4_photo.jpg" alt="tm_block4_photo"
                                              class="tm_block4_img">
                                         <p class="tm_block4_p">Jason Teichmann</p>
-                                        <span class="tm_block4_span">Consultant</span>
+                                        <p class="tm_block4_p2">Consultant</p>
                                     </a>
                                     <div class="quote_blocks4">
                                         <div class="quote_blocks_text">
@@ -692,7 +714,7 @@
                 </div>
                 <div class="sd">
                     <img src="images/sd_ico.png" alt="sd_ico" class="why_us_blocks_img">
-                    <p class="block_name">Strict<br/> Deadline</p>
+                    <p class="block_name">Strict Deadline</p>
                     <p class="block_text">Technology founders churn rate niche market long tail release iteration burn
                         rate backing. Churn rate accelerator.</p>
                 </div>

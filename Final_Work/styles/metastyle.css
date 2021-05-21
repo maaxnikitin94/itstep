@@ -1,0 +1,1278 @@
+@media screen and (max-width: 1890.98px) {
+  .container {
+    width: 1690px; }
+
+  .to_main_a {
+    right: 5%; }
+
+  .menu {
+    margin-left: 155px; }
+
+  .our_works_h1 {
+    padding-left: 420px; }
+
+  .our_works_button {
+    margin-left: 780px; }
+
+  .our_works_button:active {
+    margin: 45px 0 5px 782px; }
+
+  .our_works_ico {
+    padding-left: 500px;
+    padding-right: 400px; }
+
+  .portfolio {
+    height: 1950px; }
+
+  .our_team_blocks {
+    padding-right: 290px;
+    padding-left: 290px; }
+
+  .buy_packs {
+    padding-right: 250px;
+    padding-left: 250px; }
+
+  .testi_text1 {
+    right: 265px; }
+
+  .testi_switch {
+    margin-right: 260px; }
+
+  .why_us {
+    height: 1200px; }
+
+  .blog_blocks {
+    padding-left: 250px;
+    padding-right: 250px; }
+
+  .form_footer_block {
+    margin-left: 450px;
+    margin-right: 470px; }
+
+  .contacts_block {
+    margin-left: 290px; } }
+@media screen and (max-width: 1720.98px) {
+  .container {
+    width: 1500px;
+    overflow: hidden; }
+
+  .to_main_a {
+    right: 6%; }
+
+  .menu {
+    display: none; }
+
+  .menu_mob {
+    display: unset; }
+
+  .header {
+    padding-left: 250px; }
+
+  .our_works_h1 {
+    padding-left: 330px; }
+
+  .our_works_button {
+    margin-left: 680px; }
+
+  .our_works_button:active {
+    margin: 45px 0 5px 682px; }
+
+  .our_works_ico {
+    padding-left: 400px;
+    padding-right: 300px; }
+
+  .about_us_main_img {
+    margin-left: 250px; }
+
+  .portfolio_blocks {
+    padding-left: 340px;
+    padding-right: 340px; }
+
+  .our_team_blocks {
+    padding-right: 200px;
+    padding-left: 200px; }
+
+  .stat_block {
+    padding-left: 350px;
+    padding-right: 350px; }
+
+  .buy_packs {
+    padding-right: 190px;
+    padding-left: 190px; }
+
+  .testi_text1 {
+    right: 115px; }
+
+  .testi_switch {
+    margin-right: 120px; }
+
+  .blog_blocks {
+    padding-left: 190px;
+    padding-right: 190px; }
+
+  .form_footer_block {
+    margin-left: 360px;
+    margin-right: 370px; }
+
+  .contacts_block {
+    margin-left: 190px; } }
+@media screen and (max-width: 1525.98px) {
+  .container {
+    width: 1300px; }
+
+  .to_main_a {
+    right: 7%; }
+
+  .our_works_h1 {
+    padding-left: 230px;
+    font-size: 40px; }
+
+  .our_works_button {
+    margin-left: 590px; }
+
+  .our_works_button:active {
+    margin: 45px 0 5px 592px; }
+
+  .our_works_ico {
+    padding-left: 300px;
+    padding-right: 250px; }
+
+  .our_works {
+    height: 650px; }
+
+  .our_works_button {
+    width: 130px;
+    height: 45px;
+    font-size: 14px; }
+
+  .about_us_main {
+    height: 900px; }
+
+  .about_us_main_img {
+    width: 450px;
+    height: 580px;
+    margin-left: 200px; }
+
+  .about_us_text {
+    width: 552px;
+    height: 445px; }
+
+  .about_us_text_p {
+    font-size: 13px; }
+
+  .our_focus {
+    height: 700px; }
+
+  .web_block, .ux_block, .photo_block, .app_block {
+    width: 193px;
+    height: 280px;
+    margin-right: 40px; }
+
+  .web_block_img, .ux_block_img, .photo_block_img, .app_block_img {
+    top: 30px;
+    left: 74px; }
+
+  .web_block_h3, .ux_block_h3, .photo_block_h3, .app_block_h3 {
+    top: 85px;
+    font-size: 19px; }
+
+  .web_block_p, .ux_block_p, .photo_block_p, .app_block_p {
+    font-size: 12px; }
+
+  .portfolio_blocks {
+    padding-left: 280px;
+    padding-right: 280px; }
+
+  .our_team {
+    height: 1140px; }
+
+  .our_team_blocks {
+    padding-left: 100px;
+    padding-right: 100px; }
+
+  .buy_packs {
+    padding-right: 90px;
+    padding-left: 90px; }
+
+  .testi_text1 {
+    right: 175px;
+    width: 620px;
+    height: 312px; }
+
+  .testi_photo1, .testi_photo2, .testi_photo3, .testi_photo5, .testi_photo6 {
+    background-size: 279px 420px; }
+
+  .testi_text1_main {
+    width: 520px; }
+
+  .testi_switch {
+    margin-right: 170px; }
+
+  .why_us {
+    height: 1050px; }
+
+  .why_us_blocks {
+    padding-right: 310px;
+    padding-left: 310px; }
+
+  .start_jorney {
+    margin-top: 70px; }
+
+  .our_blog {
+    height: 1050px; }
+
+  .blog_blocks {
+    padding-left: 70px;
+    padding-right: 70px; }
+
+  .subscribe {
+    height: 325px; }
+
+  .subscribe_h3 {
+    padding-top: 50px; }
+
+  .footer {
+    height: 1150px; }
+
+  .form_footer_block {
+    margin-left: 260px;
+    margin-right: 270px; }
+
+  .contacts_block {
+    margin-left: 90px; } }
+@media screen and (max-width: 1325.98px) {
+  .container {
+    width: 1200px; }
+
+  .to_main_a {
+    right: 4.5%;
+    font-size: 20px; }
+
+  .to_main_a:before {
+    top: -11px;
+    left: 25px;
+    padding: 0; }
+
+  .our_works_h1 {
+    padding-left: 200px;
+    font-size: 40px; }
+
+  .our_works_button {
+    margin-left: 545px; }
+
+  .our_works_button:active {
+    margin: 45px 0 5px 592px; }
+
+  .portfolio_blocks {
+    padding-left: 220px;
+    padding-right: 220px; }
+
+  .our_team_blocks {
+    padding-left: 50px;
+    padding-right: 50px; }
+
+  .stat_block {
+    padding-right: 250px;
+    padding-left: 250px; }
+
+  .pricing {
+    height: 950px; }
+
+  .buy_packs {
+    padding-left: 30px;
+    padding-right: 30px; }
+
+  .testimonials {
+    height: 740px; }
+
+  .testi_text1 {
+    right: 125px; }
+
+  .testi_switch {
+    margin-right: 130px; }
+
+  .why_us_blocks {
+    padding-right: 210px;
+    padding-left: 210px; }
+
+  .footer {
+    height: 1150px; }
+
+  .form_footer_block {
+    margin-left: 210px;
+    margin-right: 220px; }
+
+  .contacts_block {
+    margin-left: 30px; } }
+@media screen and (max-width: 1225.98px) {
+  .container {
+    width: 995px; }
+
+  .to_main_a {
+    right: 9%; }
+
+  .our_works {
+    height: 550px; }
+
+  .our_works_h1 {
+    padding-left: 70px;
+    padding-top: 150px;
+    font-size: 30px; }
+
+  .our_works_button {
+    width: 140px;
+    height: 40px;
+    font-size: 10px;
+    margin-left: 440px; }
+
+  .our_works_button:active {
+    margin: 45px 0 5px 442px; }
+
+  .our_works_ico {
+    margin-top: 70px;
+    padding-left: 290px;
+    padding-right: 230px; }
+
+  .ico1_img, .ico2_img, .ico3_img {
+    width: 35px;
+    height: 35px; }
+
+  .about_us_main {
+    height: 500px; }
+
+  .about_us_main_img {
+    margin-top: 80px;
+    width: 250px;
+    height: 320px;
+    margin-left: 170px; }
+
+  .about_us_text {
+    padding-top: 30px;
+    margin-top: 127px;
+    width: 452px;
+    height: 245px; }
+
+  .about_us_text_h2 {
+    margin-left: 40px;
+    font-size: 20px;
+    line-height: 20px; }
+
+  .about_us_text_p {
+    margin-left: 40px;
+    font-size: 10px;
+    line-height: 15px;
+    width: 410px; }
+
+  .our_focus {
+    height: 800px; }
+
+  .our_focus_blocks {
+    flex-wrap: wrap;
+    width: 50%;
+    margin-left: 270px; }
+
+  .web_block, .ux_block, .photo_block, .app_block {
+    margin-top: 30px; }
+
+  .portfolio {
+    height: 930px; }
+
+  .portfolio_blocks {
+    padding: 35px 50px 0 50px; }
+
+  .project_one {
+    width: 260px;
+    height: 210px; }
+
+  .pluskrug_ico_hover {
+    left: 105px; }
+
+  .project_one:hover .pluskrug_ico_hover {
+    top: 55px; }
+
+  .our_team {
+    height: 710px; }
+
+  .our_team_blocks {
+    padding-top: 40px;
+    padding-left: 150px;
+    padding-right: 150px; }
+
+  .tm_block1_img, .tm_block2_img, .tm_block3_img, .tm_block4_img {
+    width: 133px;
+    height: 150px; }
+
+  .tm_block1_p2, .tm_block2_p2, .tm_block3_p2, .tm_block4_p2 {
+    font-size: 10px; }
+
+  .tm_block1:hover, .tm_block2:hover, .tm_block3:hover, .tm_block4:hover {
+    box-shadow: 0 1px 1px 5px white; }
+
+  .quote_blocks2 {
+    left: -184px; }
+
+  .quote_blocks2:before {
+    left: 245px; }
+
+  .quote_blocks3 {
+    left: -368px; }
+
+  .quote_blocks3:before {
+    left: 425px; }
+
+  .quote_blocks4:before {
+    left: 610px; }
+
+  .quote_blocks_h3 {
+    padding-top: 5px;
+    padding-left: 28px;
+    font-size: 15px; }
+
+  .quote_blocks_p {
+    padding-left: 28px;
+    font-size: 10px;
+    line-height: 15px;
+    width: 450px; }
+
+  .social_a_ico {
+    margin-top: 20px;
+    margin-left: 20px;
+    width: 30px;
+    height: 30px; }
+
+  .social_a_ico img {
+    width: 30px;
+    height: 30px; }
+
+  .line {
+    margin-left: 19px; }
+
+  .social_links_li {
+    font-size: 11px; }
+
+  .a_fb {
+    background: url("../images/our_team_fb.png") no-repeat 0 1.5px; }
+
+  .a_tw {
+    background: url("../images/our_team_twit.png") no-repeat 0 1.5px; }
+
+  .a_ld {
+    background: url("../images/our_team_linkd.png") no-repeat 0 1.5px; }
+
+  .a_in {
+    background: url("../images/our_team_inst.png") no-repeat 0 1.5px; }
+
+  .stat_block {
+    height: 260px;
+    padding-top: 70px;
+    padding-right: 210px;
+    padding-left: 210px; }
+
+  .stat_block img {
+    width: 30px; }
+
+  .stat_block_p, .clients_p, .feedbacks_p, .freebies_p {
+    font-size: 16px;
+    line-height: 50px; }
+
+  .clients_p {
+    margin: -6px 0 0 -5px; }
+
+  .freebies_p {
+    margin: -1px 0 0 -5px; }
+
+  .stat_block_p2, .clients_p2, .feedbacks_p2, .freebies_p2 {
+    font-size: 12px; }
+
+  .work_steps {
+    height: 950px; }
+
+  .work_photo {
+    margin-top: 95px; }
+
+  .photo1, .photo2, .photo3, .photo4 {
+    width: 356px;
+    height: 160px; }
+
+  .work_text1 {
+    left: -250px;
+    top: -80px; }
+
+  .work_text2 {
+    right: -250px; }
+
+  .work_text3 {
+    left: -250px; }
+
+  .work_text4 {
+    right: -250px; }
+
+  .pricing {
+    height: 615px; }
+
+  .buy_packs {
+    padding-top: 40px;
+    padding-left: 120px;
+    padding-right: 120px; }
+
+  .buy_packs_h3 {
+    font-size: 15px;
+    line-height: 50px; }
+
+  .price_p {
+    margin: 12px 0 0 0;
+    font-size: 12px;
+    line-height: 4px; }
+
+  .price_p2 {
+    margin: 5px 0 0 0;
+    font-size: 11px;
+    line-height: 10px; }
+
+  .pluses_p {
+    font-size: 10px;
+    line-height: 25px;
+    margin-top: 70px; }
+
+  .buy_packs_span {
+    font-size: 10px;
+    line-height: 25px; }
+
+  .testimonials {
+    height: 500px; }
+
+  .testi_photo1 {
+    background-size: 174px 225px;
+    background-position-x: -10px;
+    background-position-y: -15px; }
+
+  .testi_photo2 {
+    background-size: 174px 230px;
+    background-position-x: -10px;
+    background-position-y: -15px; }
+
+  .testi_photo3 {
+    background-size: 184px 260px;
+    background-position-x: -12px; }
+
+  .testi_photo4 {
+    background-size: 154px 210px; }
+
+  .testi_photo5 {
+    background-size: 174px 240px;
+    background-position-x: -10px;
+    background-position-y: -15px; }
+
+  .testi_photo6 {
+    background-size: 174px 240px;
+    background-position-x: -10px;
+    background-position-y: -15px; }
+
+  .testi_text1 {
+    right: 227px;
+    margin: 47px 0 0 0;
+    width: 452px;
+    height: 212px; }
+
+  .kov_fon {
+    font-size: 250px;
+    line-height: 250px; }
+
+  .testi_text1_main {
+    width: 350px;
+    top: 20px;
+    left: 30px;
+    font-size: 11px;
+    line-height: 20px; }
+
+  .testi_text1_p1 {
+    bottom: 35px;
+    left: 30px;
+    font-size: 20px;
+    line-height: 40px; }
+
+  .testi_text1_p2 {
+    bottom: 17px;
+    left: 30px;
+    font-size: 14px;
+    line-height: 40px; }
+
+  .testi_text1_p3 {
+    bottom: -3px;
+    left: 30px;
+    font-size: 11px;
+    line-height: 40px; }
+
+  .testi_switch {
+    top: 275px;
+    right: 90px; }
+
+  .circle_testi {
+    left: 170px;
+    width: 8px;
+    height: 8px;
+    margin-right: 10px; }
+
+  .circle_testi:hover {
+    width: 3px;
+    height: 3px;
+    margin-right: 9px;
+    margin-top: -0.3px; }
+
+  .testi_block1:target ~ .testi_switch a[href="#testi_block1"],
+  .testi_block2:target ~ .testi_switch a[href="#testi_block2"],
+  .testi_block3:target ~ .testi_switch a[href="#testi_block3"],
+  .testi_block4:target ~ .testi_switch a[href="#testi_block4"],
+  .testi_block5:target ~ .testi_switch a[href="#testi_block5"],
+  .testi_block6:target ~ .testi_switch a[href="#testi_block6"] {
+    width: 3px;
+    height: 3px;
+    margin-right: 9px;
+    margin-top: -0.3px; }
+
+  .why_us {
+    height: 590px; }
+
+  .why_us_blocks {
+    padding-right: 70px;
+    padding-left: 70px; }
+
+  .why_us_blocks_img {
+    width: 25px;
+    height: 25px; }
+
+  .awc img {
+    height: 32px; }
+
+  .block_name {
+    font-size: 13px;
+    width: 260px; }
+
+  .block_text {
+    font-size: 11px;
+    line-height: 15px;
+    width: 260px; }
+
+  .bg, .ur, .up {
+    margin-bottom: 50px; }
+
+  .start_jorney {
+    font-size: 20px;
+    margin-top: 55px; }
+
+  .but_why_us {
+    width: 90px;
+    height: 35px;
+    margin-left: 24px;
+    font-size: 10px; }
+
+  .our_blog {
+    height: 830px; }
+
+  .blog_blocks {
+    padding-top: 40px;
+    padding-left: 120px;
+    padding-right: 120px;
+    display: flex;
+    flex-wrap: wrap; }
+
+  .main_news {
+    display: flex;
+    position: relative;
+    padding-top: 0;
+    margin: 0 0 30px 0;
+    box-sizing: border-box;
+    width: 755px;
+    height: 235px;
+    background-image: url("../images/blog_news_photo.jpg");
+    background-size: 355px 235px; }
+
+  .main_news_name {
+    position: absolute;
+    font-size: 8px;
+    bottom: 0; }
+
+  .main_news_data {
+    font-size: 8px; }
+
+  .main_news_header {
+    position: absolute;
+    margin: 40px 0 0 0;
+    font-size: 18px;
+    width: 300px;
+    right: 40px;
+    top: -10px; }
+
+  .main_news_text {
+    position: absolute;
+    margin: 24px 0 0 0;
+    font-size: 13px;
+    line-height: 20px;
+    width: 300px;
+    right: 40px;
+    top: 105px; }
+
+  .main_news_text_a {
+    font-size: 13px;
+    line-height: 14px; }
+
+  .secondary_news {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap; }
+
+  .sec_news3 {
+    margin-left: 200px; }
+
+  .subscribe {
+    height: 190px; }
+
+  .subscribe_h3 {
+    font-size: 27px;
+    padding-top: 30px;
+    line-height: 55px; }
+
+  .subscribe_form {
+    margin-top: 15px; }
+
+  .subscribe_email {
+    width: 185px;
+    height: 40px;
+    font-size: 13px;
+    padding-left: 20px;
+    padding-right: 10px;
+    left: 78px; }
+
+  .subscribe_submit {
+    left: 260px;
+    width: 130px;
+    height: 40px;
+    border-radius: 0 25px 25px 0;
+    font-size: 13px; }
+
+  .footer {
+    height: 670px; }
+
+  .form_footer_block {
+    margin-top: 20px; }
+
+  .input_name {
+    left: 70px; }
+
+  .input_email {
+    right: 65px; }
+
+  .input_subj {
+    top: 44px;
+    left: 70px; }
+
+  .input_proj {
+    top: 44px;
+    right: 65px; }
+
+  .input_textarea {
+    top: 90px;
+    left: 70px;
+    width: 425px;
+    height: 100px;
+    font-size: 13px; }
+
+  .send_submit {
+    top: 220px;
+    left: 216px;
+    width: 90px;
+    height: 35px;
+    font-size: 10px; }
+
+  .contacts_block {
+    margin-top: 310px;
+    margin-left: 150px;
+    width: 700px;
+    height: 140px; }
+
+  .alexis_white {
+    margin-left: 41px;
+    font-size: 30px;
+    line-height: 21px; }
+
+  .alexis_white_a_letter {
+    font-size: 30px;
+    line-height: 21px; }
+
+  .alexis_llc {
+    margin-left: 60px; }
+
+  .alexis_llc_p1 {
+    font-size: 15px;
+    line-height: 21px;
+    margin-left: 5px; }
+
+  .alexis_llc_p2 {
+    line-height: 21px;
+    font-size: 12px;
+    width: 170px;
+    margin-left: 5px; }
+
+  .alexis_llc_uk_p1 {
+    font-size: 15px;
+    line-height: 21px;
+    margin-left: 5px; }
+
+  .alexis_llc_uk_p2 {
+    line-height: 21px;
+    font-size: 12px;
+    width: 170px;
+    margin-left: 5px; }
+
+  .alexis_follow_us_p1 {
+    font-size: 15px;
+    line-height: 5px;
+    margin-left: 5px;
+    margin-top: -40px; }
+
+  .follow_a img {
+    width: 20px;
+    height: 20px; }
+
+  .follow_us {
+    margin-top: 35px;
+    margin-left: 5px;
+    margin-right: 20px; }
+
+  .follow_a {
+    width: 20px;
+    height: 20px;
+    margin-right: 10px;
+    margin-top: 1px; }
+
+  .twitter_a:hover {
+    padding-top: 0; }
+
+  .twitter_a:active {
+    padding-top: 0; } }
+@media screen and (max-width: 1020.98px) {
+  .container {
+    width: 768px; }
+
+  .to_main_a {
+    right: 12%; }
+
+  .header {
+    padding-left: 100px; }
+
+  .dark_block {
+    height: 550px; }
+
+  .our_works_h1 {
+    padding-top: 120px;
+    padding-left: 180px;
+    font-size: 30px;
+    width: 400px;
+    line-height: 60px; }
+
+  .our_works_button {
+    margin-left: 320px; }
+
+  .our_works_button:active {
+    margin: 45px 0 5px 322px; }
+
+  .our_works_ico {
+    padding-left: 160px;
+    padding-right: 110px; }
+
+  .about_us_main_img {
+    margin-left: 70px; }
+
+  .our_focus_blocks {
+    width: 70%;
+    margin-left: 132px; }
+
+  .portfolio {
+    height: 1375px; }
+
+  .portfolio_blocks {
+    padding: 35px 80px 0 80px; }
+
+  .our_team_blocks {
+    padding-left: 36px;
+    padding-right: 36px; }
+
+  .stat_block {
+    padding-right: 100px;
+    padding-left: 110px; }
+
+  .photo1, .photo2, .photo3, .photo4 {
+    width: 256px; }
+
+  .work_text1, .work_text3 {
+    left: -220px; }
+
+  .work_text2, .work_text4 {
+    right: -220px; }
+
+  .buy_packs {
+    padding-left: 35px;
+    padding-right: 35px; }
+
+  .testi_photo1, .testi_photo2, .testi_photo3, .testi_photo4, .testi_photo5, .testi_photo6 {
+    margin-left: 52px; }
+
+  .testi_text1 {
+    right: 100px; }
+
+  .testi_switch {
+    right: -35px; }
+
+  .why_us {
+    height: 645px; }
+
+  .why_us_blocks {
+    padding-top: 20px;
+    padding-right: 100px;
+    padding-left: 100px; }
+
+  .our_blog {
+    height: 990px; }
+
+  .blog_blocks {
+    padding-left: 40px;
+    padding-right: 40px;
+    padding-bottom: 0; }
+
+  .main_news {
+    background-size: 335px 235px; }
+
+  .sec_news2 {
+    margin-left: 300px; }
+
+  .sec_news3 {
+    margin-left: 0; }
+
+  .input_name {
+    left: -40px; }
+
+  .input_email {
+    right: -52px; }
+
+  .input_subj {
+    top: 44px;
+    left: -40px; }
+
+  .input_proj {
+    top: 44px;
+    right: -52px; }
+
+  .input_textarea {
+    left: -40px; }
+
+  .send_submit {
+    left: 105px; }
+
+  .contacts_block {
+    margin-left: 35px; } }
+@media screen and (max-width: 792.98px) {
+  .container {
+    width: 480px; }
+
+  .hidden-menu-ticker:checked ~ .hidden-menu {
+    right: 230px; }
+
+  .btn-menu {
+    transition: right .9s; }
+
+  .to_main_a {
+    right: 19%; }
+
+  .our_works {
+    height: 490px; }
+
+  .dark_block {
+    height: 100%; }
+
+  .our_works_h1 {
+    padding-left: 50px;
+    font-size: 25px; }
+
+  .our_works_button {
+    margin-left: 201px;
+    margin-top: 30px;
+    width: 100px;
+    height: 30px;
+    font-size: 9px; }
+
+  .our_works_button:active {
+    margin-left: 203px;
+    margin-top: 30px; }
+
+  .our_works_ico {
+    padding-left: 90px;
+    padding-right: 50px; }
+
+  .ico1_img, .ico2_img, .ico3_img {
+    width: 25px;
+    height: 25px; }
+
+  .about_us_main {
+    height: 430px; }
+
+  .about_us_main_img {
+    width: 190px;
+    height: 260px;
+    margin-left: 20px; }
+
+  .about_us_text {
+    padding-top: 20px;
+    margin-top: 127px;
+    width: 302px;
+    height: 205px;
+    left: -77px; }
+
+  .about_us_text_h2 {
+    margin-left: 15px;
+    font-size: 18px;
+    line-height: 18px; }
+
+  .about_us_text_p {
+    margin-top: 15px;
+    margin-left: 15px;
+    font-size: 8px;
+    line-height: 13px;
+    width: 290px; }
+
+  .our_focus {
+    height: 660px; }
+
+  .our_focus_blocks {
+    width: 95%;
+    margin-left: 32px; }
+
+  .web_block, .ux_block, .photo_block, .app_block {
+    width: 143px;
+    height: 200px;
+    margin-right: 40px; }
+
+  .web_block_img, .ux_block_img, .photo_block_img, .app_block_img {
+    width: 45px;
+    height: 35px;
+    top: 20px;
+    left: 55px; }
+
+  .web_block_h3, .ux_block_h3, .photo_block_h3, .app_block_h3 {
+    top: 65px;
+    font-size: 14px; }
+
+  .web_block_p, .ux_block_p, .photo_block_p, .app_block_p {
+    font-size: 10px;
+    line-height: 16px;
+    width: 89%;
+    bottom: 35px; }
+
+  .web_block:hover, .ux_block:hover, .photo_block:hover, .app_block:hover {
+    box-shadow: 0 1px 2px 8px white; }
+
+  .portfolio {
+    height: 1000px; }
+
+  .portfolio_blocks {
+    padding-left: 25px;
+    padding-right: 25px;
+    padding-top: 10px; }
+
+  .project_one {
+    width: 200px;
+    height: 140px; }
+
+  .portfolio_blocks_a {
+    width: 100%;
+    height: 100%; }
+
+  .pluskrug_ico_hover {
+    left: 85px;
+    width: 31px;
+    height: 31px; }
+
+  .pluskrug_ico_hover:before {
+    width: 32px;
+    height: 30px;
+    font-size: 30px; }
+
+  .project_one_hover {
+    height: 30px;
+    bottom: -50px;
+    font-size: 12px;
+    line-height: 34px; }
+
+  .project_one:hover .pluskrug_ico_hover {
+    top: 45px; }
+
+  .our_team {
+    height: 760px; }
+
+  .our_team_blocks {
+    padding-left: 16px;
+    padding-right: 16px;
+    padding-top: 5px; }
+
+  .tm_block1_img, .tm_block2_img, .tm_block3_img, .tm_block4_img {
+    width: 93px;
+    height: 110px; }
+
+  .tm_block2_p {
+    left: 5px;
+    width: 93%; }
+
+  .quote_blocks2 {
+    left: -115px; }
+
+  .quote_blocks2:before {
+    left: 155px; }
+
+  .quote_blocks3 {
+    left: -230px; }
+
+  .quote_blocks3:before {
+    left: 270px; }
+
+  .quote_blocks4 {
+    right: 2px; }
+
+  .quote_blocks4:before {
+    right: 0;
+    left: 380px; }
+
+  .quote_blocks_p {
+    width: 220px; }
+
+  .stat_block {
+    padding-top: 40px;
+    padding-right: 10px;
+    padding-left: 50px;
+    height: 195px; }
+
+  .stat_block img {
+    width: 25px; }
+
+  .stat_block_p, .clients_p, .feedbacks_p, .freebies_p {
+    font-size: 14px;
+    line-height: 40px; }
+
+  .clients_p {
+    margin-top: -5px; }
+
+  .stat_block_p, .feedbacks_p, .freebies_p {
+    margin: 0 0 0 -10px; }
+
+  .stat_block_p2, .clients_p2, .feedbacks_p2, .freebies_p2 {
+    font-size: 10px; }
+
+  .photo1, .photo2, .photo3, .photo4 {
+    width: 216px;
+    height: 140px; }
+
+  .work_steps {
+    height: 850px; }
+
+  .work_text1, .work_text3 {
+    left: -120px; }
+
+  .work_text2, .work_text4 {
+    right: -120px; }
+
+  .pricing {
+    height: 545px; }
+
+  .buy_packs {
+    padding-left: 25px;
+    padding-right: 25px;
+    padding-top: 10px; }
+
+  .testimonials {
+    height: 730px; }
+
+  .testi_photo1, .testi_photo2, .testi_photo3, .testi_photo4, .testi_photo5, .testi_photo6 {
+    margin-left: 157px; }
+
+  .testi_text1 {
+    right: 15px;
+    top: 400px; }
+
+  .testi_switch {
+    right: 45px;
+    top: 285px; }
+
+  .why_us {
+    height: 980px; }
+
+  .why_us_blocks {
+    padding-left: 150px; }
+
+  .bg, .ur, .up, .se, .sd {
+    margin-bottom: 30px; }
+
+  .start_jorney {
+    font-size: 15px;
+    margin-top: 55px; }
+
+  .our_blog {
+    height: 1190px; }
+
+  .main_news {
+    background-size: 435px 235px;
+    height: 455px; }
+
+  .main_news_name {
+    bottom: unset; }
+
+  .main_news_header {
+    top: unset;
+    bottom: 110px; }
+
+  .main_news_text {
+    top: unset;
+    bottom: 20px; }
+
+  .sec_news1, .sec_news2, .sec_news3 {
+    margin-left: 20px; }
+
+  .footer {
+    height: 870px; }
+
+  .input_name {
+    left: -70px;
+    top: 0; }
+
+  .input_email {
+    right: 0;
+    left: -70px;
+    top: 44px; }
+
+  .input_subj {
+    top: 88px;
+    left: -70px; }
+
+  .input_proj {
+    top: 132px;
+    right: -79px; }
+
+  .input_textarea {
+    top: 180px;
+    left: -135px;
+    width: 325px; }
+
+  .send_submit {
+    top: 320px;
+    left: -40px; }
+
+  .contacts_block {
+    margin-top: 380px;
+    flex-wrap: wrap;
+    width: 400px;
+    height: 300px; }
+
+  .alexis_llc_uk_p1 {
+    margin-left: 35px; }
+
+  .alexis_llc_uk_p2 {
+    margin-left: 35px; } }
+
+/*# sourceMappingURL=metastyle.css.map */
