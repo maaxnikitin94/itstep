@@ -74,7 +74,7 @@ html, body {
   text-shadow: 0 1px 2px black; }
 
 .alexis_black:active, .alexis_a_letter:active {
-  color: #fc5f45; }
+  margin-top: 3px; }
 
 .menu_mob {
   display: none;
@@ -144,16 +144,16 @@ html, body {
   font-weight: 600;
   text-transform: uppercase;
   color: #ffffff;
-  margin: 45px 0 5px 870px; }
+  margin: 45px 0 5px 865px; }
 
 .our_works_button:hover {
   cursor: pointer;
-  box-shadow: 0 2px 25px 10px orange; }
+  box-shadow: 0 0 3px 5px #fc5f45; }
 
 .our_works_button:active {
-  margin: 45px 0 5px 872px;
-  box-shadow: 0 0 25px 10px orange;
-  color: yellow; }
+  box-shadow: none;
+  background-color: #ffffff;
+  color: #fc5f45; }
 
 .our_works_ico {
   display: flex;
@@ -2729,8 +2729,10 @@ html, body {
   cursor: pointer; }
 
 .subscribe_submit:active {
-  box-shadow: 0 0 7px 4px #fc5f45;
-  color: yellow; }
+  box-shadow: none;
+  background-color: antiquewhite;
+  color: #fc5f45;
+  border: 1px solid #fc5f45; }
 
 .footer {
   display: flex;
@@ -2786,6 +2788,9 @@ html, body {
     .contact_text_p {
       font-size: 12px; } }
 
+.form_footer {
+  position: relative; }
+
 .form_footer_block {
   display: flex;
   margin: 68px 575px 0 575px;
@@ -2828,7 +2833,7 @@ html, body {
   line-height: 80px;
   font-weight: 400;
   color: #616161;
-  right: 0; }
+  left: 410px; }
   @media screen and (max-width: 1225.98px) {
     .input_email {
       width: 200px;
@@ -2873,7 +2878,7 @@ html, body {
   font-weight: 400;
   color: #616161;
   top: 84px;
-  right: 0; }
+  left: 410px; }
   @media screen and (max-width: 1225.98px) {
     .input_proj {
       width: 200px;
@@ -2994,10 +2999,10 @@ html, body {
   color: #fc5f45; }
 
 .alexis_white:hover, .alexis_white_a_letter:hover {
-  text-shadow: 4px 5px 7px #fc5f45; }
+  text-shadow: 4px 5px 7px white; }
 
 .alexis_white:active, .alexis_white_a_letter:active {
-  color: #fc5f45; }
+  margin-top: 3px; }
 
 .alexis_llc {
   margin-left: 60px; }

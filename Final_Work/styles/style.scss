@@ -558,7 +558,7 @@ html, body {
 }
 
 .alexis_black:active, .alexis_a_letter:active {
-  color: $color-red;
+  margin-top: 3px;
 }
 
 .menu_mob {
@@ -638,18 +638,18 @@ html, body {
   font-weight: 600;
   text-transform: uppercase;
   color: #ffffff;
-  margin: 45px 0 5px 870px;
+  margin: 45px 0 5px 865px;
 }
 
 .our_works_button:hover {
   cursor: pointer;
-  box-shadow: 0 2px 25px 10px orange;
+  box-shadow: 0 0 3px 5px $color-red;
 }
 
 .our_works_button:active {
-  margin: 45px 0 5px 872px;
-  box-shadow: 0 0 25px 10px orange;
-  color: yellow;
+  box-shadow: none;
+  background-color: #ffffff;
+  color: $color-red;
 }
 
 .our_works_ico {
@@ -2143,8 +2143,10 @@ html, body {
 }
 
 .subscribe_submit:active {
-  box-shadow: 0 0 7px 4px $color-red;
-  color: yellow;
+  box-shadow: none;
+  background-color: antiquewhite;
+  color: $color-red;
+  border: 1px solid $color-red;
 }
 
 .footer {
@@ -2166,6 +2168,10 @@ html, body {
   @include headers_blocks_p();
 }
 
+.form_footer {
+  position: relative;
+}
+
 .form_footer_block {
   display: flex;
   margin: 68px 575px 0 575px;
@@ -2179,7 +2185,7 @@ html, body {
 
 .input_email {
   @include contact_input();
-  right: 0;
+  left: 410px;
 }
 
 .input_subj {
@@ -2190,7 +2196,7 @@ html, body {
 .input_proj {
   @include contact_input();
   top: 84px;
-  right: 0;
+  left: 410px;
 }
 
 .input_name::-webkit-input-placeholder,
@@ -2306,11 +2312,11 @@ html, body {
 }
 
 .alexis_white:hover, .alexis_white_a_letter:hover {
-  text-shadow: 4px 5px 7px $color-red;
+  text-shadow: 4px 5px 7px white;
 }
 
 .alexis_white:active, .alexis_white_a_letter:active {
-  color: $color-red;
+  margin-top: 3px;
 }
 
 .alexis_llc {
