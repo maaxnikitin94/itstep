@@ -40,6 +40,7 @@
 }
 
 .hidden-menu {
+  background-color: rgba(238, 105, 6, 0.39);
   columns: 3;
   position: absolute;
   list-style: none;
@@ -47,7 +48,7 @@
   margin: 0;
   box-sizing: border-box;
   width: 360px;
-  height: 190px;
+  height: 110px;
   top: 90px;
   right: -300px;
   transition: right 1s linear;

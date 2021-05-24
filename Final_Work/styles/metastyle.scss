@@ -1330,8 +1330,8 @@
   }
   .input_textarea {
     top: 180px;
-    left: -135px;
-    width: 325px;
+    left: -70px;
+    width: 200px;
   }
   .send_submit {
     top: 320px;
@@ -1348,5 +1348,311 @@
   }
   .alexis_llc_uk_p2 {
     margin-left: 35px;
+  }
+}
+
+@media screen and (max-width: 504.98px) {
+  .container {
+    width: 320px;
+  }
+  .header {
+    padding-left: 50px;
+    padding-right: 50px;
+    justify-content: unset;
+  }
+  .alexis_black {
+    font-size: 25px;
+  }
+
+  .alexis_a_letter {
+    font-size: 25px;
+  }
+  .menu_mob {
+    right: -380px;
+  }
+  .menu_mob_item {
+    font-size: 8px;
+  }
+  .hidden-menu-ticker:checked ~ .hidden-menu {
+    right: 139px;
+  }
+  .our_works_h1 {
+    padding-left: 10px;
+    font-size: 20px;
+    width: 300px;
+  }
+  .our_works_button {
+    margin-left: 115px;
+  }
+  .our_works_ico {
+    padding-left: 25px;
+    padding-right: 10px;
+  }
+  .ico2_block {
+    margin-left: 10px;
+  }
+  .about_us_main {
+    height: 530px;
+  }
+  .about_us_main_img {
+    margin-top: 40px;
+    margin-left: 60px;
+  }
+  .about_us_text {
+    left: -260px;
+    top: 160px;
+  }
+  .our_focus {
+    height: 1100px;
+  }
+  .our_focus_text {
+    padding-top: 20px;
+  }
+  .portfolio {
+    height: 1650px;
+  }
+  .portfolio_blocks {
+    padding-left: 60px;
+  }
+  .our_team_blocks {
+    padding-left: 3px;
+    padding-right: 3px;
+  }
+  .our_team_text {
+    padding-top: 20px;
+  }
+  .tm_block1_img, .tm_block2_img, .tm_block3_img, .tm_block4_img {
+    width: 60px;
+    height: 80px;
+  }
+  .tm_block1_p2, .tm_block2_p2, {
+    bottom: 10px;
+  }
+  .tm_block3_p2, .tm_block4_p2 {
+    bottom: 25px;
+  }
+  .quote_blocks1 {
+    left: 2px;
+  }
+  .quote_blocks1:before {
+    left: 23px;
+  }
+  .quote_blocks2 {
+    left: -78px;
+  }
+  .quote_blocks2:before {
+    left: 100px;
+  }
+  .quote_blocks3 {
+    left: -159px;
+    height: 410px;
+  }
+  .quote_blocks3:before {
+    left: 182px;
+  }
+  .quote_blocks4:before {
+    right: 0;
+    left: 262px;
+  }
+  .social_a_ico {
+    margin-left: 65px;
+  }
+  .line {
+    display: none;
+  }
+  .social_links_ul {
+    margin-left: 50px;
+  }
+  .stat_block {
+    flex-wrap: wrap;
+    padding-right: 10px;
+    padding-left: 80px;
+    padding-top: 50px;
+    height: 390px;
+  }
+  .projects, .clients, .feedbacks, .freebies {
+    width: 40%;
+  }
+  .work_steps_text {
+    padding-top: 20px;
+  }
+  .work_steps {
+    height: 900px;
+  }
+  .work_text1, .work_text3 {
+    left: -40px;
+  }
+  .work_text2, .work_text4 {
+    right: -40px;
+  }
+  .work_text2 {
+    top: -40px;
+  }
+  .work_text3 {
+    top: 0;
+  }
+  .photo4 {
+    z-index: 0;
+  }
+  .work_text4 {
+    top: 40px;
+  }
+  .pricing {
+    height: 1260px;
+  }
+  .pricing_text {
+    padding-top: 20px;
+  }
+  .buy_packs {
+    flex-wrap: wrap;
+    padding-left: 60px;
+  }
+  .pluses_p {
+    font-size: 10px;
+    line-height: 25px;
+    margin-top: 70px;
+  }
+  .ultimate, .prof {
+    margin-top: 25px;
+  }
+  .buy_packs_span {
+    font-size: 10px;
+    line-height: 25px;
+  }
+  .testimonials {
+    height: 600px;
+  }
+  .testimonials_text {
+    padding-top: 20px;
+  }
+  .testi_photo1, .testi_photo2, .testi_photo3, .testi_photo4, .testi_photo5, .testi_photo6 {
+    margin-left: 90px;
+    margin-top: 15px;
+  }
+  .testi_text1 {
+    right: -110px;
+    top: 315px;
+  }
+  .testi_text1_main {
+    width: 310px;
+  }
+  .testi_photo1 {
+    background-size: 147px 219px;
+  }
+  .testi_photo2 {
+    background-size: 145px 190px;
+  }
+  .testi_photo3 {
+    background-size: 159px 223px;
+  }
+  .testi_photo5 {
+    background-size: 153px 189px;
+  }
+  .testi_photo6 {
+    background-size: 144px 203px;
+  }
+  .testi_switch {
+    right: -35px;
+    top: 200px;
+  }
+  .why_us {
+    height: 980px;
+  }
+  .why_us_text {
+    padding-top: 20px;
+  }
+  .why_us_blocks {
+    padding-left: 50px;
+  }
+  .start_jorney {
+    margin-top: 35px;
+  }
+  .but_why_us {
+    margin-top: 10px;
+    margin-left: 10px;
+  }
+  .our_blog_text {
+    padding-top: 20px;
+  }
+  .blog_blocks {
+    padding-top: 10px;
+    padding-left: 0;
+    padding-right: 0;
+  }
+  .main_news_header {
+    right: 15px;
+  }
+  .main_news_text {
+    right: 15px;
+  }
+  .secondary_news {
+    justify-content: unset;
+  }
+  .sec_news1, .sec_news2, .sec_news3 {
+    margin-left: 0;
+  }
+  .sec_news1_text, .sec_news2_text, .sec_news3_text {
+    width: 300px;
+  }
+  .sec_news1, .sec_news2, .sec_news3 {
+    height: 170px;
+  }
+  .subscribe {
+    height: 140px;
+  }
+  .subscribe_h3 {
+    font-size: 20px;
+    padding-top: 20px;
+    line-height: 35px;
+  }
+  .subscribe_email {
+    width: 160px;
+    height: 35px;
+    left: 100px;
+  }
+  .subscribe_submit {
+    left: 260px;
+    width: 110px;
+    height: 35px;
+    font-size: 11px;
+  }
+  .contact_text {
+    padding-top: 20px;
+  }
+  .input_name, .input_email, .input_subj, .input_proj, .input_textarea {
+    left: -150px;
+  }
+  .send_submit {
+    top: 300px;
+    left: -115px;
+  }
+  .footer {
+    height: 900px;
+  }
+  .contacts_block {
+    width: 295px;
+    height: 340px;
+    margin-left: 12px;
+  }
+  .alexis_white {
+    font-size: 27px;
+    line-height: 20px;
+    margin-left: 20px;
+  }
+
+  .alexis_white_a_letter {
+    font-size: 27px;
+    line-height: 20px;
+  }
+  .alexis_llc {
+    display: inline-block;
+    margin-left: 0;
+  }
+  .alexis_llc_uk {
+    margin-top: -30px;
+    margin-left: 90px;
+  }
+  .follow_us {
+    margin-left: 120px;
   }
 }
